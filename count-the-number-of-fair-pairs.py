@@ -1,8 +1,13 @@
-def countFairPairs(nums, lower, upper):
+# Definition for singly-linked list.
+import bisect as b 
+
+def countFairPairs(nums,lower,upper):
+    nums.sort()
     count = 0
-    for i in range(len(nums)-1):
-        for j in range(i + 1, len(nums)):
-            sum = nums[i] + nums[j]
-            if(sum >= lower and sum <= upper):
-                count += 1
+    for i in range(len(nums)):
+        lowestBound = lower - nums[i]
+        upperBound = upper - nums[i]
+        left = b.bisect_left(nums,lowestBound, i+1)
+        right = b.bisect_right(nums, upperBound, i + 1)
+        count += (right - left)
     return count
