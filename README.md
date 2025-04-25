@@ -44,6 +44,8 @@ Are you also grinding LeetCode? Diving into Codeforces?
 On the **A2SV** journey too? Hit me up — let’s grow together.
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/ephrem-ketachew)
+- 🧠 [LeetCode](https://leetcode.com/u/ephrem-ketachew/)
+- ⚔️ [Codeforces](https://codeforces.com/profile/ephrem64)
 - 🐍 Pythonic vibes only.
 
 ---
