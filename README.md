@@ -1,24 +1,53 @@
-🧠 LeetCode Grind
-Welcome to my LeetCode Solutions Vault — a personal log of consistency, growth, and algorithmic mastery. This is where I sharpen my edge, one problem at a time, on the path to cracking coding interviews and leveling up for A2SV.
+# 🧠 Algorithm Arena
 
-🚀 Overview
-This repository is a curated collection of my solutions to problems on LeetCode, thoughtfully crafted in Python. Every solution is written with clarity, efficiency, and readability in mind — the goal isn't just to solve the problem, but to understand it deeply.
+Welcome to my **Problem Solving Vault** — a curated log of challenges conquered from **LeetCode** and **Codeforces**.  
+This is more than a repo — it's the **arena** where consistency meets curiosity, and where every line of code sharpens the blade for **A2SV** and beyond.
 
-💡 I'm currently prepping for A2SV and aiming for daily consistency with problem-solving.
+---
 
-📌 Goals
-⏳ Build a rock-solid problem-solving habit
+## 🚀 Overview
 
-🧠 Master data structures and algorithms
+This repository is a collection of my daily problem-solving journey.  
+Every solution is written in **Python**, with a focus on:
+- ✅ Readability  
+- ⚡ Efficiency  
+- 💡 Clarity of thought  
 
-🛠️ Prep for A2SV and top-tier tech interviews
+I’m not just solving problems — I’m building muscle memory for patterns, learning to think in edge cases, and leveling up for **tech interviews and algorithmic competitions**.
 
-📚 Leave behind well-documented code for future reference
+---
 
-🤝 Contributions
-While this repo is primarily for personal growth, feel free to open issues or pull requests if you notice a mistake or have an improvement to suggest — learning together is better. 🙌
+## 🛤️ Platforms Logged
+- 📘 **LeetCode**: Interview-style DSA challenges
+- 🏁 **Codeforces**: Competitive problem solving under pressure
 
-🌟 Let’s Connect
-If you're also on a coding grind or part of A2SV, let's connect and grow together!
-📧 www.linkedin.com/in/ephrem-ketachew
-🐍 Pythonic vibes only.
+---
+
+## 🎯 Goals
+- 🧱 Build a rock-solid problem-solving habit  
+- 🧠 Master key **Data Structures & Algorithms**  
+- 🛠️ Prep for **A2SV** and top-tier tech interviews  
+- 📚 Leave behind clean, documented code for my future self (and others!)  
+
+---
+
+## 🤝 Contributions
+
+While this repo is a personal grind log, you're **totally welcome** to explore, suggest improvements, or flag issues.  
+Learning together > learning alone. 🙌
+
+---
+
+## 🌐 Let’s Connect
+
+Are you also grinding LeetCode? Diving into Codeforces?  
+On the **A2SV** journey too? Hit me up — let’s grow together.
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/ephrem-ketachew)
+- 🧠 [LeetCode](https://leetcode.com/u/ephrem-ketachew/)
+- ⚔️ [Codeforces](https://codeforces.com/profile/ephrem64)
+- 🐍 Pythonic vibes only.
+
+---
+
+> _“Fall in love with the process, and the results will chase you.”_ 💪  
