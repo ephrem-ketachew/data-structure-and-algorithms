@@ -23,7 +23,7 @@
 # Explanation: The array leftSum is [0] and the array rightSum is [0].
 # The array answer is [|0 - 0|] = [0].
 
-def leftRightDifference(nums]):
+def leftRightDifference(nums):
     nums_sum = sum(nums)
     left_sum = 0
     sum_difference = []
