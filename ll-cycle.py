@@ -37,6 +37,7 @@ from typing import Optional
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
+        # time and space colmplexity both o(n) 
         # seen = set()
         # while head:
         #     if head in seen:
@@ -45,6 +46,7 @@ class Solution:
         #     head = head.next
         # return False
         
+        # time complexity still o(n) but o(1) space complexity
         slow = fast = head
         while fast and fast.next:
             slow = slow.next
