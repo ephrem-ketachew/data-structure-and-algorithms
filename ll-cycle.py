@@ -40,10 +40,10 @@ class Solution:
         # seen = set()
         # while head:
         #     if head in seen:
-        #         return False
+        #         return Ture
         #     seen.add(head)
         #     head = head.next
-        # return True
+        # return False
         
         slow = fast = head
         while fast and fast.next:
