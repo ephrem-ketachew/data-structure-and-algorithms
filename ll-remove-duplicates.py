@@ -13,14 +13,29 @@ def remove_duplicates(head):
     if not head:
         return None
     
+    # previous = head
+    # current = head.next
+    # seen = set([previous.val])
+    # while current:
+    #     if current.val in seen:
+    #         previous.next = current.next
+    #     else:
+    #         seen.add(current.val)
+    #         previous = current
+    #     current = current.next
+        
+    # return head
+    
     previous = head
     current = head.next
-    seen = set([previous.val])
     while current:
-        if current.val in seen:
-            previous.next = current.next
+        temp = head
+        while temp.next != current:
+            if temp.val == current.val:
+                previous.next = current.next
+                break
+            temp = temp.next
         else:
-            seen.add(current.val)
             previous = current
         current = current.next
         
