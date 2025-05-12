@@ -27,23 +27,36 @@
 # Output: []
 # Explanation: No even integers can be formed using the given digits.
 from typing import List
+from collections import Counter
 
 class Solution:
     def findEvenNumbers(self, digits: List[int]) -> List[int]:
-        ints = set()
-        for i in range(len(digits)):
-            if digits[i] == 0:
-                continue
-            for j in range(len(digits)):
-                if j == i:
-                    continue
-                for k in range(len(digits)):
-                    if k == j or k == i:
-                        continue
-                    if digits[k] % 2 == 0:
-                        num = int(str(digits[i]) + str(digits[j]) + str(digits[k]))
+        # ints = set()
+        # for i in range(len(digits)):
+        #     if digits[i] == 0:
+        #         continue
+        #     for j in range(len(digits)):
+        #         if j == i:
+        #             continue
+        #         for k in range(len(digits)):
+        #             if k == j or k == i:
+        #                 continue
+        #             if digits[k] % 2 == 0:
+        #                 num = int(str(digits[i]) + str(digits[j]) + str(digits[k]))
         
-                        ints.add(num)
-        ints = list(ints)
-        ints.sort()
-        return ints
+        #                 ints.add(num)
+        # ints = list(ints)
+        # ints.sort()
+        # return ints
+        
+        digits_counter = Counter(digits)
+        output = []
+        
+        for num in range(100, 1000, 2):
+            nums_digits = list(map(int, str(num)))
+            
+            nums_counter = Counter(nums_digits)
+            if all(nums_counter[d] <= digits_counter[d] for d in nums_counter):
+                output.append(num)
+        
+        return output
