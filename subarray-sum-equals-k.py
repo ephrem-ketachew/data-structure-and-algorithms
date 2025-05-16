@@ -26,6 +26,3 @@ def subarraySum(nums, k):
         
         prefix_sum_count[prefix_sum] = prefix_sum_count.get(prefix_sum, 0) + 1
         
-    return count
-
-# print(subarraySum([1,1,1], 2))
