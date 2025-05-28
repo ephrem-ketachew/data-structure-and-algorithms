@@ -37,94 +37,122 @@ class TreeNode:
         self.right = right
 
 class Solution:
-    def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
-        if root is None:
+    def __delete_node(self, current_node, val):
+        def find_min(current_node):
+            while current_node.left is not None:
+                current_node = current_node.left
+            return current_node.val
+        
+        if current_node == None:
             return None
-        if root.val == key:
-            if root.left == None:
-                root = root.right
-            elif root.right == None:
-                root = root.left
+        elif val < current_node.val:
+            current_node.left = self.__delete_node(current_node.left, val)
+        elif val > current_node.val:
+            current_node.right = self.__delete_node(current_node.right, val)
+        else:
+            if current_node.left == current_node.right == None:
+                return None
+            elif current_node.left == None:
+                current_node = current_node.right
+            elif current_node.right == None:
+                current_node = current_node.left
             else:
-                before = root
-                after = root.left
-                if after.right is None:
-                    root = after
-                    after.right = before.right
-                    before.left = before.right = None
-                else:
-                    while after.right:
-                        before = after
-                        after = after.right
-                    before.right = after.left
-                    root.val = after.val
+                subtree_min = find_min(current_node.right)
+                current_node.val = subtree_min
+                current_node.right = self.__delete_node(current_node.right, subtree_min)
+        return current_node
+    
+    def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
+        return self.__delete_node(root, key)
+        
+        #without using recursion
+        # if root is None:
+        #     return None
+        # if root.val == key:
+        #     if root.left == None:
+        #         root = root.right
+        #     elif root.right == None:
+        #         root = root.left
+        #     else:
+        #         before = root
+        #         after = root.left
+        #         if after.right is None:
+        #             root = after
+        #             after.right = before.right
+        #             before.left = before.right = None
+        #         else:
+        #             while after.right:
+        #                 before = after
+        #                 after = after.right
+        #             before.right = after.left
+        #             root.val = after.val
                     
-            return root
+        #     return root
                 
             
-        parent_node = None
-        direction = ''
-        current_node = root
+        # parent_node = None
+        # direction = ''
+        # current_node = root
         
-        while True:
-            if key < current_node.val:
-                if current_node.left:
-                    if current_node.left.val == key:
-                        parent_node = current_node
-                        direction = 'left'
-                        break
-                    current_node = current_node.left
-                else:
-                    return root
+        # while True:
+        #     if key < current_node.val:
+        #         if current_node.left:
+        #             if current_node.left.val == key:
+        #                 parent_node = current_node
+        #                 direction = 'left'
+        #                 break
+        #             current_node = current_node.left
+        #         else:
+        #             return root
             
-            if key > current_node.val:
-                if current_node.right:
-                    if current_node.right.val == key:
-                        parent_node = current_node
-                        direction = 'right'
-                        break
-                    current_node = current_node.right
-                else:
-                    return root
+        #     if key > current_node.val:
+        #         if current_node.right:
+        #             if current_node.right.val == key:
+        #                 parent_node = current_node
+        #                 direction = 'right'
+        #                 break
+        #             current_node = current_node.right
+        #         else:
+        #             return root
                 
-        print(parent_node)  
-        if direction == 'right':
-            if parent_node.right.right == None:
-                parent_node.right = parent_node.right.left
-            elif parent_node.right.left == None:
-                parent_node.right = parent_node.right.right
-            else:
-                before = parent_node.right
-                after = parent_node.right.left
-                if after.right is None:
-                    parent_node.right = after
-                    after.right = before.right
-                    # before.left = before.right = None
-                else:
-                    while after.right:
-                        before = after
-                        after = after.right
-                    before.right = after.left
-                    parent_node.right.val = after.val
+        # print(parent_node)  
+        # if direction == 'right':
+        #     if parent_node.right.right == None:
+        #         parent_node.right = parent_node.right.left
+        #     elif parent_node.right.left == None:
+        #         parent_node.right = parent_node.right.right
+        #     else:
+        #         before = parent_node.right
+        #         after = parent_node.right.left
+        #         if after.right is None:
+        #             parent_node.right = after
+        #             after.right = before.right
+        #             # before.left = before.right = None
+        #         else:
+        #             while after.right:
+        #                 before = after
+        #                 after = after.right
+        #             before.right = after.left
+        #             parent_node.right.val = after.val
         
-        if direction == 'left':
-            if parent_node.left.right == None:
-                parent_node.left = parent_node.left.left
-            elif parent_node.left.left == None:
-                parent_node.left = parent_node.left.right
-            else:
-                before = parent_node.left
-                after = parent_node.left.left
-                if after.right is None:
-                    parent_node.left = after
-                    after.right = before.right
-                    # before.left = before.right = None
-                else:
-                    while after.right:
-                        before = after
-                        after = after.right
-                    before.right = after.left
-                    parent_node.left.val = after.val
+        # if direction == 'left':
+        #     if parent_node.left.right == None:
+        #         parent_node.left = parent_node.left.left
+        #     elif parent_node.left.left == None:
+        #         parent_node.left = parent_node.left.right
+        #     else:
+        #         before = parent_node.left
+        #         after = parent_node.left.left
+        #         if after.right is None:
+        #             parent_node.left = after
+        #             after.right = before.right
+        #             # before.left = before.right = None
+        #         else:
+        #             while after.right:
+        #                 before = after
+        #                 after = after.right
+        #             before.right = after.left
+        #             parent_node.left.val = after.val
                 
-        return root
+        # return root
  
