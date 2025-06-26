@@ -34,41 +34,63 @@
 
 class Solution:
     def longestSubsequence(self, s: str, k: int) -> int:
-        if len(s) == 1:
-            if int(s) <= k:
-                return 1
-            else:
-                return 0
-
-        dp = [0] * len(s)
-        if s[0] == '0':
-            dp[0] = 1
-            
-        max_length = 0
+        value = 0
+        power = 1
+        count = 0
         
-        for i in range(1, len(s)):
+        for i in range(len(s) - 1, -1, -1):
             if s[i] == '0':
-                dp[i] = dp[i - 1] + 1
+                count += 1
             else:
-                dp[i] = dp[i - 1]
-              
-            decimal = 0 
-            j = i   
-            length = 0
-            power = 1
-            while j >= 0:
-                decimal += (int(s[j]) * power)
-                if decimal > k:
-                    break
-                length += 1
-                j -= 1
-                power *= 2
-       
-            if j > 0:
-                length += dp[j - 1]    
-            max_length = max(max_length, length)
+                if power + value <= k:
+                    count += 1
+                    value += power
             
-        return max_length
+            power *= 2
+            if power > k:
+                break
+            
+        for j in range(i - 1, -1 , -1):
+            if s[j] == '0':
+                count += 1
+                
+        return count
+        
+        # if len(s) == 1:
+        #     if int(s) <= k:
+        #         return 1
+        #     else:
+        #         return 0
+
+        # dp = [0] * len(s)
+        # if s[0] == '0':
+        #     dp[0] = 1
+            
+        # max_length = 0
+        
+        # for i in range(1, len(s)):
+        #     if s[i] == '0':
+        #         dp[i] = dp[i - 1] + 1
+        #     else:
+        #         dp[i] = dp[i - 1]
+              
+        #     decimal = 0 
+        #     j = i   
+        #     length = 0
+        #     power = 1
+        #     while j >= 0:
+        #         decimal += (int(s[j]) * power)
+        #         if decimal > k:
+        #             break
+        #         length += 1
+        #         j -= 1
+        #         power *= 2
+       
+        #     if j > 0:
+        #         length += dp[j - 1]    
+        #     max_length = max(max_length, length)
+            
+        # return max_length
     
 # s = "1001010"
 # k = 5
