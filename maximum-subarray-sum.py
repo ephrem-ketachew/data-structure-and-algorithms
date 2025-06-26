@@ -23,12 +23,22 @@ from typing import List
  
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        prefix = 0
-        max_sum = float('-inf')
-        heap = [0]
+        # prefix = 0
+        # max_sum = float('-inf')
+        # heap = [0]
         
-        for num in nums:
-            prefix += num
-            max_sum = max(max_sum, prefix - heap[0])
-            heapq.heappush(heap, prefix)
-        return max_sum
+        # for num in nums:
+        #     prefix += num
+        #     max_sum = max(max_sum, prefix - heap[0])
+        #     heapq.heappush(heap, prefix)
+        # return max_sum
+        
+        dp = [0] * len(nums)
+        dp[0] = nums[0]
+        for i in range(1, len(nums)):
+            if dp[i - 1] > 0:
+                dp[i] = dp[i - 1] + nums[i]
+            else:
+                dp[i] = nums[i]
+                
+        return max(dp)
