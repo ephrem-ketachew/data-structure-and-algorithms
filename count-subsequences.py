@@ -36,37 +36,57 @@ from typing import List
 
 class Solution:
     def numSubseq(self, nums: List[int], target: int) -> int:
-        def bs(begin, key):
-            end = len(nums) - 1
-            while True:
-                mid = (begin + end) // 2
-                if nums[mid] == key:
-                    i = mid
-                    while i < len(nums) and nums[i] == key:
-                        i += 1
-                    return i - 1
-                elif nums[mid] > key:
-                    end = mid - 1
-                    if begin > end:
-                        return end
-                else:
-                    begin = mid + 1
-                    if begin > end:
-                        return begin - 1
+        # def bs(begin, key):
+        #     end = len(nums) - 1
+        #     while True:
+        #         mid = (begin + end) // 2
+        #         if nums[mid] == key:
+        #             i = mid
+        #             while i < len(nums) and nums[i] == key:
+        #                 i += 1
+        #             return i - 1
+        #         elif nums[mid] > key:
+        #             end = mid - 1
+        #             if begin > end:
+        #                 return end
+        #         else:
+        #             begin = mid + 1
+        #             if begin > end:
+        #                 return begin - 1
         
-        subsequence_count = 0
-        nums.sort()
+        # subsequence_count = 0
+        # nums.sort()
         
-        for i in range(len(nums)):
-            end_value = target - nums[i]
-            end_index = bs(i, end_value) if end_value >= nums[i] else i
-            if end_index == i:
-                if nums[i] <= target // 2:
-                    subsequence_count += 1
-            else:
-                subsequence_count += 2 ** (end_index - i)
+        # for i in range(len(nums)):
+        #     end_value = target - nums[i]
+        #     end_index = bs(i, end_value) if end_value >= nums[i] else i
+        #     if end_index == i:
+        #         if nums[i] <= target // 2:
+        #             subsequence_count += 1
+        #     else:
+        #         subsequence_count += 2 ** (end_index - i)
 
-        return subsequence_count % (10 ** 9 + 7)
+        # return subsequence_count % (10 ** 9 + 7)
+        
+        MOD = 10 ** 9 + 7
+        nums.sort()
+        power = [1] * len(nums)
+        
+        for i in range(1, len(nums)):
+            power[i] = (power[i - 1] * 2) % MOD
+            
+        left = 0
+        right = len(nums) - 1
+        count = 0
+        
+        while left <= right:
+            if nums[left] + nums[right] <= target:
+                count = (count + power[right - left]) % MOD
+                left += 1
+            else:
+                right -= 1
+                
+        return count
      
 # nums = [3,5,6,7]
 # nums = [3,3,6,8]
