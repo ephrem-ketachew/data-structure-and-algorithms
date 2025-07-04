@@ -29,25 +29,44 @@
 
 class Solution:
     def longestNiceSubstring(self, s: str) -> str:
-        longest_string = ''
+        # a brute force approach(since the constraint is very small(100))
+        # longest_string = ''
         
-        for i in range(len(s)):
-            substring = s[i]
-            seen = set(s[i])
-            for j in range(i + 1, len(s)):
-                substring += s[j]
-                isNice = True
-                seen.add(s[j])
-                for k in range(len(substring)):
-                    opp_case = substring[k].upper() if substring[k].islower() else substring[k].lower()
-                    if not opp_case in seen:
-                        isNice = False
-                        break
+        # for i in range(len(s)):
+        #     substring = s[i]
+        #     seen = set(s[i])
+        #     for j in range(i + 1, len(s)):
+        #         substring += s[j]
+        #         isNice = True
+        #         seen.add(s[j])
+        #         for k in range(len(substring)):
+        #             opp_case = substring[k].upper() if substring[k].islower() else substring[k].lower()
+        #             if not opp_case in seen:
+        #                 isNice = False
+        #                 break
                     
-                if isNice and len(substring) > len(longest_string):
-                    longest_string = substring
+        #         if isNice and len(substring) > len(longest_string):
+        #             longest_string = substring
                     
-        return longest_string
+        # return longest_string
+        
+        # an optimized solution with divide and conquer strategy
+        
+        if len(s) < 2:
+            return ""
+        
+        chars = set(s)
+        
+        for i, c in enumerate(s):
+            if c.swapcase() not in chars:
+                left = self.longestNiceSubstring(s[:i])
+                right = self.longestNiceSubstring(s[i + 1:])
+                return left if len(left) >= len(right) else right
+            
+        return s
+    
+    
+        # tried sliding window.........but i far i see there is no legitimate way this question can be solved through sliding window..... it's misleading..... i wasted some time
         # left = 0
         # seen = set()
         # longest_string = window = ''
