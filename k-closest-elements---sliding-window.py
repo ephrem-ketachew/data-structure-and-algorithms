@@ -31,41 +31,53 @@ from typing import List
 
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
-        def bs(nums, key):
-            begin, end = 0, len(nums) - 1
-            while begin <= end:
-                mid = (begin + end) // 2
-                if nums[mid] == key:
-                    return mid
-                elif nums[mid] > key:
-                    end = mid - 1
-                else:
-                    begin = mid + 1
-            return begin
+        # def bs(nums, key):
+        #     begin, end = 0, len(nums) - 1
+        #     while begin <= end:
+        #         mid = (begin + end) // 2
+        #         if nums[mid] == key:
+        #             return mid
+        #         elif nums[mid] > key:
+        #             end = mid - 1
+        #         else:
+        #             begin = mid + 1
+        #     return begin
         
-        k_closest = []
-        index = bs(arr, x)
+        # k_closest = []
+        # index = bs(arr, x)
      
-        left = index - 1
-        right = index
-        while len(k_closest) < k:
-            if left >= 0 and right < len(arr):
-                if abs(arr[left] - x) <= abs(arr[right] - x):
-                    k_closest.append(arr[left])
-                    left -= 1
-                else:
-                    k_closest.append(arr[right])
-                    right += 1
+        # left = index - 1
+        # right = index
+        # while len(k_closest) < k:
+        #     if left >= 0 and right < len(arr):
+        #         if abs(arr[left] - x) <= abs(arr[right] - x):
+        #             k_closest.append(arr[left])
+        #             left -= 1
+        #         else:
+        #             k_closest.append(arr[right])
+        #             right += 1
             
-            elif left >= 0:
-                k_closest.append(arr[left])
-                left -= 1
-            else:
-                k_closest.append(arr[right])
-                right += 1
+        #     elif left >= 0:
+        #         k_closest.append(arr[left])
+        #         left -= 1
+        #     else:
+        #         k_closest.append(arr[right])
+        #         right += 1
                 
-        k_closest.sort()
-        return k_closest
+        # k_closest.sort()
+        # return k_closest
+        
+        
+        left, right = 0, len(arr) - k
+        while left < right:
+            mid = (left + right) // 2
+            # arr[mid:mid+k](sliding window)
+            if x - arr[mid] > arr[mid + k] - x:
+                left = mid + 1
+            else:
+                right = mid
+            
+        return arr[left:left + k]
     
 # solution = Solution()
 # arr = [1,2,3,4,5]
