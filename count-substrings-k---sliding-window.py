@@ -36,17 +36,31 @@ from collections import defaultdict
 
 class Solution:
     def numberOfSubstrings(self, s: str, k: int) -> int:
+        # left, count, n = 0, 0, len(s)
+        # counter = defaultdict(int)
+        
+        # for right in range(n):
+        #     counter[s[right]] += 1
+        #     while counter[s[right]] >= k:
+        #         counter[s[left]] -= 1
+        #         if counter[s[left]] == 0:
+        #             del counter[s[left]]
+        #         left += 1
+                
+        #     count += right - left + 1
+            
+        # return n * (n + 1) // 2 - count
+        
         left, count, n = 0, 0, len(s)
         counter = defaultdict(int)
         
         for right in range(n):
             counter[s[right]] += 1
-            while counter[s[right]] >= k:
+            while counter[s[right]] == k:
+                count += n - right
                 counter[s[left]] -= 1
                 if counter[s[left]] == 0:
                     del counter[s[left]]
                 left += 1
                 
-            count += right - left + 1
-            
-        return n * (n + 1) // 2 - count
+        return count
