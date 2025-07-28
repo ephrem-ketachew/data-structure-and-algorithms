@@ -39,6 +39,22 @@ class Solution:
                 maxx = num
                 
         return maxx
+        
+        # nums.sort()
+        # left, right = 0, len(nums) -1
+        # maxx = -1
+        # while left < right:
+        #     summ = nums[left] + nums[right]
+        #     if summ == 0:
+        #         maxx = max(maxx, nums[right])
+        #         left += 1
+        #         right -=1
+        #     elif summ < 0:
+        #         left += 1
+        #     else:
+        #         right -= 1
+                
+        # return maxx
     
 # solution = Solution()
 # nums = [-1,2,-3,3]
