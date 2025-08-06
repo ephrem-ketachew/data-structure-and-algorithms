@@ -37,13 +37,17 @@ class Solution:
         heaters.sort()
         
         min_radius = 0
+        j = 0
         for house in houses:
-            index = bisect_right(heaters, house)
+            # index = bisect_right(heaters, house)
             
-            pos1 = heaters[index - 1] if index > 0 else float('inf')
-            pos2 = heaters[index] if index < len(heaters) else float('inf')
+            # pos1 = heaters[index - 1] if index > 0 else float('inf')
+            # pos2 = heaters[index] if index < len(heaters) else float('inf')
             
-            radius = min(abs(pos1 - house), abs(pos2 - house))
+            # radius = min(abs(pos1 - house), abs(pos2 - house))
+            while j + 1 < len(heaters) and abs(heaters[j + 1] - house) <= abs(heaters[j] - house):
+                j += 1
+            radius = abs(heaters[j] - house)
             min_radius = max(min_radius, radius)
             
         return min_radius
