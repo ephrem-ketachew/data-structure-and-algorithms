@@ -45,3 +45,18 @@ class Solution:
                 right -= 1
                 
         return False
+        
+        # seen = set()
+        # n = int(sqrt(c)) + 1
+        
+        # for a in range(n):
+        #     seen.add(a)
+        #     b = sqrt(c - a * a)
+        #     if b in seen:
+        #         return True
+            
+        # return False
+    
+# solution = Solution()
+# c = 5
+# print(solution.judgeSquareSum(c))
