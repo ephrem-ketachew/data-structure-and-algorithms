@@ -1,5 +1,7 @@
 # 🧠 Algorithm Arena
 
+<img width="1447" height="728" alt="image" src="https://github.com/user-attachments/assets/d5b149d2-75d6-4056-8cef-2f248574a304" />
+
 This repository began as a training ground for **A2SV** interviews. Today, it stands as a testament to a deeper passion: the art and science of problem-solving. This is my vault, chronicling a daily commitment to mastering algorithms, data structures, and the elegant logic that binds them.
 
 What started as a goal has become a process. A process I've fallen in love with.
