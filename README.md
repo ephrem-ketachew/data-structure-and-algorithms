@@ -1,6 +1,9 @@
 # 🧠 Algorithm Arena
 
-<img width="1447" height="728" alt="image" src="https://github.com/user-attachments/assets/d5b149d2-75d6-4056-8cef-2f248574a304" />
+<img width="1444" height="743" alt="image" src="https://github.com/user-attachments/assets/22251296-be7c-4e75-8638-38eebb4c4fe5" />
+<img width="467" height="749" alt="image" src="https://github.com/user-attachments/assets/0b3e04c3-7a12-462b-bd4a-5f0aae92c2e1" />
+
+
 
 This repository began as a training ground for **A2SV** interviews. Today, it stands as a testament to a deeper passion: the art and science of problem-solving. This is my vault, chronicling a daily commitment to mastering algorithms, data structures, and the elegant logic that binds them.
 
