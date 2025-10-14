@@ -33,15 +33,26 @@ from typing import List
 
 class Solution:
     def hasIncreasingSubarrays(self, nums: List[int], k: int) -> bool:
-        for i in range(len(nums) - 2 * k + 1):
-            for j in range(i + 1, i + k):
-                if nums[j] <= nums[j - 1]:
-                    break
-            else:
-                for m in range(i + k + 1, i + 2 * k):
-                    if nums[m] <= nums[m - 1]:
-                        break
-                else:
-                    return True
+        # for i in range(len(nums) - 2 * k + 1):
+        #     for j in range(i + 1, i + k):
+        #         if nums[j] <= nums[j - 1]:
+        #             break
+        #     else:
+        #         for m in range(i + k + 1, i + 2 * k):
+        #             if nums[m] <= nums[m - 1]:
+        #                 break
+        #         else:
+        #             return True
                 
+        # return False
+        n = len(nums)
+        inc = [1] * n
+        for i in range(1, n):
+            if nums[i] > nums[i - 1]:
+                inc[i] = inc[i - 1] + 1
+                
+        for i in range(n - 2 * k + 1):
+            if inc[i + k - 1] >= k and inc[i + 2 * k - 1] >= k:
+                return True
+            
         return False
