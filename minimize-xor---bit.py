@@ -32,28 +32,41 @@
 
 class Solution:
     def minimizeXor(self, num1: int, num2: int) -> int:
-        set_bits_num2 = num2.bit_count()
-        bin_num1 = list(bin(num1)[2:])
-        set_bits_num1 = bin_num1.count('1')
+        # set_bits_num2 = num2.bit_count()
+        # bin_num1 = list(bin(num1)[2:])
+        # set_bits_num1 = bin_num1.count('1')
         
-        if set_bits_num1 == set_bits_num2:
-            return num1
+        # if set_bits_num1 == set_bits_num2:
+        #     return num1
         
-        if set_bits_num1 > set_bits_num2:
-            i = len(bin_num1) - 1
-            while set_bits_num1 > set_bits_num2 and i >= 0:
-                if bin_num1[i] == '1':
-                    bin_num1[i] = '0'
-                    set_bits_num1 -= 1
-                i -= 1
+        # if set_bits_num1 > set_bits_num2:
+        #     i = len(bin_num1) - 1
+        #     while set_bits_num1 > set_bits_num2 and i >= 0:
+        #         if bin_num1[i] == '1':
+        #             bin_num1[i] = '0'
+        #             set_bits_num1 -= 1
+        #         i -= 1
                 
-            return int(''.join(bin_num1), 2)
+        #     return int(''.join(bin_num1), 2)
         
-        i = len(bin_num1) - 1
-        while set_bits_num1 < set_bits_num2 and i >= 0:
-            if bin_num1[i] == '0':
-                bin_num1[i] = '1'
-                set_bits_num1 += 1
-            i -= 1
+        # i = len(bin_num1) - 1
+        # while set_bits_num1 < set_bits_num2 and i >= 0:
+        #     if bin_num1[i] == '0':
+        #         bin_num1[i] = '1'
+        #         set_bits_num1 += 1
+        #     i -= 1
             
-        return int(('1'*(set_bits_num2 - set_bits_num1) + ''.join(bin_num1)), 2)
+        # return int(('1'*(set_bits_num2 - set_bits_num1) + ''.join(bin_num1)), 2)
+        
+        need = num2.bit_count()
+        x = num1
+        while x.bit_count() > need:
+            x &= x - 1
+            
+        bit = 1
+        while x.bit_count() < need:
+            if x & bit == 0:
+                x |= bit
+            bit <<= 1
+            
+        return x
