@@ -36,21 +36,36 @@ from typing import List
 
 class Solution:
     def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
-        prefix = [0] * len(A)
-        common = 0
-        seen = set()
-        for i in range(len(A)):
-            if A[i] == B[i]:
-                common += 1
-            else:
-                if A[i] in seen:
-                    common += 1
-                if B[i] in seen:
-                    common += 1
+        # prefix = [0] * len(A)
+        # common = 0
+        # seen = set()
+        # for i in range(len(A)):
+        #     if A[i] == B[i]:
+        #         common += 1
+        #     else:
+        #         if A[i] in seen:
+        #             common += 1
+        #         if B[i] in seen:
+        #             common += 1
 
-            seen.add(A[i])
-            seen.add(B[i])
+        #     seen.add(A[i])
+        #     seen.add(B[i])
    
-            prefix[i] = common
+        #     prefix[i] = common
+            
+        # return prefix
+        
+        n = len(A)
+        prefix = [0] * n
+        maskA = 0
+        maskB = 0
+        
+        for i in range(n):
+            maskA |= 1 << A[i]
+            maskB |= 1 << B[i]
+            
+            prefix[i] = (maskA & maskB).bit_count()
             
         return prefix
+            
+            
