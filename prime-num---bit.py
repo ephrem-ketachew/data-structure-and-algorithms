@@ -38,25 +38,33 @@
 
 class Solution:
     def countPrimeSetBits(self, left: int, right: int) -> int:
-        def is_prime(n):
-            if n <= 1:
-                return False
-            if n <= 3:
-                return True
-            if n % 2 == 0 or n % 3 == 0:
-                return False
+        # def is_prime(n):
+        #     if n <= 1:
+        #         return False
+        #     if n <= 3:
+        #         return True
+        #     if n % 2 == 0 or n % 3 == 0:
+        #         return False
             
-            i = 5
-            while i * i <= n:
-                if n % i == 0 or n % (i + 2) == 0:
-                    return False
-                i += 6
+        #     i = 5
+        #     while i * i <= n:
+        #         if n % i == 0 or n % (i + 2) == 0:
+        #             return False
+        #         i += 6
                 
-            return True
+        #     return True
+        
+        # count = 0
+        # for num in range(left, right + 1):
+        #     if is_prime(num.bit_count()):
+        #         count += 1
+                
+        # return count
         
         count = 0
+        primes = set([2, 3, 5, 7, 11, 13, 17, 19])
         for num in range(left, right + 1):
-            if is_prime(num.bit_count()):
+            if num.bit_count() in primes:
                 count += 1
                 
         return count
