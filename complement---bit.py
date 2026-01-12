@@ -25,7 +25,9 @@
 
 class Solution:
     def findComplement(self, num: int) -> int:
-        num = list(bin(num)[2:])
-        for i in range(len(num)):
-            num[i] = str(int(num[i]) ^ 1)
-        return int(''.join(num), 2)
+        # num = list(bin(num)[2:])
+        # for i in range(len(num)):
+        #     num[i] = str(int(num[i]) ^ 1)
+        # return int(''.join(num), 2)
+        
+        return (1 << num.bit_length() - 1) ^ num
