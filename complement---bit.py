@@ -30,4 +30,4 @@ class Solution:
         #     num[i] = str(int(num[i]) ^ 1)
         # return int(''.join(num), 2)
         
-        return (1 << num.bit_length() - 1) ^ num
+        return ((1 << num.bit_length()) - 1) ^ num
