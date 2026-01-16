@@ -32,11 +32,21 @@
 
 class Solution:
     def binaryGap(self, n: int) -> int:
-        bin_n = bin(n)[2:]
-        max_len = 0
-        last_1 = -1
-        for i in range(len(bin_n)):
-            if bin_n[i] == '1':
+        # bin_n = bin(n)[2:]
+        # max_len = 0
+        # last_1 = -1
+        # for i in range(len(bin_n)):
+        #     if bin_n[i] == '1':
+        #         if last_1 == -1:
+        #             last_1 = i
+        #         max_len = max(max_len, i - last_1)
+        #         last_1 = i
+                
+        # return max_len
+        
+        max_len, last_1 = 0, -1
+        for i in range(30):
+            if n & (1 << i):
                 if last_1 == -1:
                     last_1 = i
                 max_len = max(max_len, i - last_1)
