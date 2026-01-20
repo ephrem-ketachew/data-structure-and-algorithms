@@ -36,27 +36,41 @@ class Solution:
                 
         # return ans
         
-        x = 0
-        for i in range(len(nums)):
-            x ^= nums[i]
+        # x = 0
+        # for i in range(len(nums)):
+        #     x ^= nums[i]
             
-        for i in range(1, len(nums) + 1):
-            x ^= i
+        # for i in range(1, len(nums) + 1):
+        #     x ^= i
             
-        low_bit = x & -x
-        a = b = 0
+        # low_bit = x & -x
+        # a = b = 0
+        # for i in range(len(nums)):
+        #     if nums[i] & low_bit:
+        #         a ^= nums[i]
+        #     else:
+        #         b ^= nums[i]
+                
+        # for i in range(1, len(nums) + 1):
+        #     if i & low_bit:
+        #         a ^= i
+        #     else:
+        #         b ^= i
+                
+        # if nums.count(a) == 2:
+        #     return [a, b]
+        # return [b, a]
+        
+        dup = mis = -1
         for i in range(len(nums)):
-            if nums[i] & low_bit:
-                a ^= nums[i]
+            idx = abs(nums[i]) - 1
+            if nums[idx] < 0:
+                dup = abs(nums[i])
             else:
-                b ^= nums[i]
+                nums[idx] = -nums[idx]
                 
-        for i in range(1, len(nums) + 1):
-            if i & low_bit:
-                a ^= i
-            else:
-                b ^= i
+        for i in range(len(nums)):
+            if nums[i] > 0:
+                mis = i + 1
                 
-        if nums.count(a) == 2:
-            return [a, b]
-        return [b, a]
+        return [dup, mis]
