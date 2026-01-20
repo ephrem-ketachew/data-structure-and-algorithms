@@ -34,13 +34,22 @@ from typing import List
 
 class Solution:
     def minOperations(self, nums: List[int], k: int) -> int:
-        collection = set()
-        i = len(nums) - 1
-        while i >= 0 and len(collection) < k:
-            if nums[i] <= k:
-                collection.add(nums[i])
-            i -= 1
+        # collection = set()
+        # i = len(nums) - 1
+        # while i >= 0 and len(collection) < k:
+        #     if nums[i] <= k:
+        #         collection.add(nums[i])
+        #     i -= 1
 
-        return len(nums) - i - 1
+        # return len(nums) - i - 1
+        
+        mask = 2 ** k
+        i = len(nums) - 1
+        while i >= 0 and mask < 2 ** (k + 1) - 1:
+            if nums[i] <= k:
+                mask |= 1 << (nums[i] - 1)
+            i -= 1
+            
+        return len(nums) - (i + 1)
 
             
