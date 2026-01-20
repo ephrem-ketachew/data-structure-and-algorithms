@@ -26,13 +26,37 @@ from collections import Counter
 
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
-        counter = Counter(nums)
-        ans = [0] * 2
-        for i in range(1, len(nums) + 1,):
-            if counter[i] == 2:
-                ans[0] = i
-            elif counter[i] == 0:
-                ans[1] = i
+        # counter = Counter(nums)
+        # ans = [0] * 2
+        # for i in range(1, len(nums) + 1,):
+        #     if counter[i] == 2:
+        #         ans[0] = i
+        #     elif counter[i] == 0:
+        #         ans[1] = i
                 
-        return ans
+        # return ans
         
+        x = 0
+        for i in range(len(nums)):
+            x ^= nums[i]
+            
+        for i in range(1, len(nums) + 1):
+            x ^= i
+            
+        low_bit = x & -x
+        a = b = 0
+        for i in range(len(nums)):
+            if nums[i] & low_bit:
+                a ^= nums[i]
+            else:
+                b ^= nums[i]
+                
+        for i in range(1, len(nums) + 1):
+            if i & low_bit:
+                a ^= i
+            else:
+                b ^= i
+                
+        if nums.count(a) == 2:
+            return [a, b]
+        return [b, a]
