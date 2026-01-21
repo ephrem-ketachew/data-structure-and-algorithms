@@ -25,9 +25,12 @@
 
 class Solution:
     def hasAlternatingBits(self, n: int) -> bool:
-        bit_len = n.bit_length()
-        for i in range(bit_len - 1):
-            if not (((n >> i) & 1) ^ ((n >> (i + 1)) & 1)):
-                return False
+        # bit_len = n.bit_length()
+        # for i in range(bit_len - 1):
+        #     if not (((n >> i) & 1) ^ ((n >> (i + 1)) & 1)):
+        #         return False
             
-        return True
+        # return True
+        
+        x = n ^ (n >> 1)
+        return x & (x + 1) == 0
