@@ -41,17 +41,21 @@
 
 class Solution:
     def minChanges(self, n: int, k: int) -> int:
-        if n < k:
-            return -1
-        if n == k:
-            return 0
+        # if n < k:
+        #     return -1
+        # if n == k:
+        #     return 0
         
-        bit_len = n.bit_length()
-        count = 0
-        for i in range(bit_len):
-            if ((k >> i) & 1) and (not(n >> i) & 1):
-                return -1
-            if (n >> i) & 1 and not((k >> i) & 1):
-                count += 1
+        # bit_len = n.bit_length()
+        # count = 0
+        # for i in range(bit_len):
+        #     if ((k >> i) & 1) and (not(n >> i) & 1):
+        #         return -1
+        #     if (n >> i) & 1 and not((k >> i) & 1):
+        #         count += 1
                 
-        return count
+        # return count
+        
+        if k & ~n != 0:
+            return -1
+        return bin(n & ~k).count('1')
