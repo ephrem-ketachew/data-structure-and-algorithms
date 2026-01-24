@@ -39,17 +39,20 @@ from typing import List
 
 class Solution:
     def minOperations(self, nums: List[int]) -> int:
-        calls = 0
-        n = len(nums)
-        while True:
-            for i in range(n):
-                if nums[i] % 2:
-                    nums[i] -= 1
-                    calls += 1
+        # calls = 0
+        # n = len(nums)
+        # while True:
+        #     for i in range(n):
+        #         if nums[i] % 2:
+        #             nums[i] -= 1
+        #             calls += 1
                     
-            if max(nums) == 0:
-                return calls
+        #     if max(nums) == 0:
+        #         return calls
             
-            for i in range(n):
-                nums[i] //= 2
-            calls += 1
+        #     for i in range(n):
+        #         nums[i] //= 2
+        #     calls += 1
+        if max(nums) == 0:
+            return 0
+        return sum(bin(num).count('1') for num in nums) + max(nums).bit_length() - 1
