@@ -30,14 +30,27 @@ class Solution:
         #     num_ibit_unset = right & ~(1 << i)
         #     if num_ibit_unset < left and right > num_ibit_unset:
         #         mask |= 1 << i
-        #         print(mask)
                 
         # return mask
         
-        shift = 0
-        while left < right:
-            left >>= 1
-            right >>= 1
-            shift += 1
+        
+        # STANDARD APPROACH
+        # shift = 0
+        # while left < right:
+        #     left >>= 1
+        #     right >>= 1
+        #     shift += 1
             
-        return left << shift
+        # return left << shift
+
+        # RESURRECTION FOR MY INTUITIVE APPROACH
+        mask = 0
+        bit_len = right.bit_length()
+        for i in range(bit_len):
+            bit_val = 1 << i
+            if left & bit_val and right & bit_val:
+                num_ibit_unset = right - bit_val
+                if num_ibit_unset < left:
+                    mask |= bit_val
+                    
+        return mask
