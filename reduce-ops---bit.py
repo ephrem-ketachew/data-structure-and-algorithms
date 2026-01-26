@@ -39,13 +39,24 @@
 
 class Solution:
     def numSteps(self, s: str) -> int:
-        num = int(s, 2)
-        steps = 0
-        while num > 1:
-            if num & 1:
-                num += 1
-            else:
-                num >>= 1
-            steps += 1
+        # num = int(s, 2)
+        # steps = 0
+        # while num > 1:
+        #     if num & 1:
+        #         num += 1
+        #     else:
+        #         num >>= 1
+        #     steps += 1
                 
-        return steps
+        # return steps
+        
+        carry = steps = 0
+        for i in range(len(s) - 1, 0, -1):
+            bit = int(s[i])
+            if bit + carry == 1:
+                steps += 2
+                carry = 1
+            else:
+                steps += 1
+                
+        return steps + carry
