@@ -45,29 +45,50 @@ class TreeNode:
         self.right = right
 class Solution:
     def constructMaximumBinaryTree(self, nums: List[int]) -> Optional[TreeNode]:
-        def _max_bin_tree(arr: List[int], node: Optional[TreeNode], dir: str) -> Optional[TreeNode]:
-            if len(arr) == 0:
-                return
-            max_val = max(arr)
-            idx = arr.index(max_val)
-            local_root = TreeNode(max_val)
-            if dir == 'left':
-                node.left = local_root
-            elif dir == 'right':
-                node.right = local_root
-            else: 
-                node = local_root
+        # def _max_bin_tree(arr: List[int], node: Optional[TreeNode], dir: str) -> Optional[TreeNode]:
+        #     if len(arr) == 0:
+        #         return
+        #     max_val = max(arr)
+        #     idx = arr.index(max_val)
+        #     local_root = TreeNode(max_val)
+        #     if dir == 'left':
+        #         node.left = local_root
+        #     elif dir == 'right':
+        #         node.right = local_root
+        #     else: 
+        #         node = local_root
                 
-            _max_bin_tree(arr[:idx], local_root, 'left')
-            _max_bin_tree(arr[idx + 1:], local_root, 'right')
+        #     _max_bin_tree(arr[:idx], local_root, 'left')
+        #     _max_bin_tree(arr[idx + 1:], local_root, 'right')
             
-            return node
+        #     return node
         
-        return _max_bin_tree(nums, TreeNode(), 'root')
+        # return _max_bin_tree(nums, TreeNode(), 'root')
+        
+        # if len(nums) == 0:
+        #     return None
+        
+        # max_val = max(nums)
+        # idx = nums.index(max_val)
+        
+        # root = TreeNode(max_val)
+        # root.left = self.constructMaximumBinaryTree(nums[:idx])
+        # root.right = self.constructMaximumBinaryTree(nums[idx+1:])
+        
+        # return root
+        
+        stack = []
+        for num in nums:
+            cur_node = TreeNode(num)
+            while stack and stack[-1].val < num:
+                cur_node.left = stack.pop()
+            if stack:
+                stack[-1].right = cur_node
+                
+            stack.append(cur_node)
+                
+        return stack[0] if stack else None
     
 # nums = [3,2,1,6,0,5]
 # solution = Solution()
 # print(solution.constructMaximumBinaryTree(nums))
-
-            
-        
