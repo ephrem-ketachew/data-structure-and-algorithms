@@ -49,12 +49,63 @@ from typing import List
 
 class Solution:
     def subArrayRanges(self, nums: List[int]) -> int:
-        summ = 0
-        for i in range(len(nums)):
-            min_val = max_val = nums[i]
-            for j in range(i + 1, len(nums)):
-                min_val = min(min_val, nums[j])
-                max_val = max(max_val, nums[j])
-                summ += max_val - min_val
+        # summ = 0
+        # for i in range(len(nums)):
+        #     min_val = max_val = nums[i]
+        #     for j in range(i + 1, len(nums)):
+        #         min_val = min(min_val, nums[j])
+        #         max_val = max(max_val, nums[j])
+        #         summ += max_val - min_val
 
-        return summ
+        # return summ
+        
+        # def sum_max(nums: List[int]):
+        #     stack = []
+        #     total = 0
+        #     nums.append(float('inf'))
+        #     for i, num in enumerate(nums):
+        #         while stack and nums[stack[-1]] < num:
+        #             mid_idx = stack.pop()
+        #             left_bound = stack[-1] if stack else -1
+                    
+        #             count = (mid_idx - left_bound) * (i - mid_idx)
+        #             total += count * nums[mid_idx]
+        #         stack.append(i)
+        #     return total
+        
+        # def sum_min(nums: List[int]):
+        #     stack = []
+        #     total = 0
+        #     nums.append(float('-inf'))
+        #     for i, num in enumerate(nums):
+        #         while stack and nums[stack[-1]] > num:
+        #             mid_idx = stack.pop()
+        #             left_bound = stack[-1] if stack else -1
+                    
+        #             count = (mid_idx - left_bound) * (i - mid_idx)
+        #             total += count * nums[mid_idx]
+        #         stack.append(i)
+                    
+        #     return total
+        
+        # return sum_max(nums[:]) - sum_min(nums[:])
+    
+        def get_sum(nums: List[int], is_max: bool):
+            stack = []
+            total = 0
+            nums = nums[:]
+            nums.append(float('inf') if is_max else float('-inf'))
+            for i, num in enumerate(nums):
+                while stack and (nums[stack[-1]] < num if is_max else nums[stack[-1]] > num):
+                    mid_idx = stack.pop()
+                    
+                    left_bound = stack[-1] if stack else -1
+                    right_bound = i
+                    
+                    count = (mid_idx - left_bound) * (right_bound - mid_idx)
+                    total += count * nums[mid_idx]
+                stack.append(i)
+                    
+            return total
+        
+        return get_sum(nums, True) - get_sum(nums, False)
