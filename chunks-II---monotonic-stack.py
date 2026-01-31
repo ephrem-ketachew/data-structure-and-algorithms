@@ -32,19 +32,30 @@ from typing import List
 
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
-        n = len(arr)
-        min_arr = [arr[-1]] * n
-        cur_min = arr[-1]
-        for i in range(n - 2, -1, -1):
-            cur_min = min(arr[i], min_arr[i + 1])
-            min_arr[i] = cur_min
+        # n = len(arr)
+        # min_arr = [arr[-1]] * n
+        # cur_min = arr[-1]
+        # for i in range(n - 2, -1, -1):
+        #     cur_min = min(arr[i], min_arr[i + 1])
+        #     min_arr[i] = cur_min
         
-        partition = 0
-        cur_max = 0
-        for i, num in enumerate(arr):
-            cur_max = max(cur_max, num)
-            if i + 1 == n or cur_max <= min_arr[i + 1]:
-                partition += 1
+        # partition = 0
+        # cur_max = 0
+        # for i, num in enumerate(arr):
+        #     cur_max = max(cur_max, num)
+        #     if i + 1 == n or cur_max <= min_arr[i + 1]:
+        #         partition += 1
                 
-        return partition
+        # return partition
+        stack = []
+        for num in arr:
+            if not stack or num >= stack[-1]:
+                stack.append(num)
+            else:
+                largest = stack.pop()
+                while stack and stack[-1] > num:
+                    stack.pop()
+                stack.append(largest)
+                
+        return len(stack)
         
