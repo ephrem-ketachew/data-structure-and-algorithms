@@ -31,18 +31,33 @@ class ListNode:
         self.next = next
 class Solution:
     def nextLargerNodes(self, head: Optional[ListNode]) -> List[int]:
-        node = head
-        nums = []
-        while node:
-            nums.append(node.val)
-            node = node.next
+        # node = head
+        # nums = []
+        # while node:
+        #     nums.append(node.val)
+        #     node = node.next
             
-        result = [0] * len(nums)
+        # result = [0] * len(nums)
+        # stack = []
+        # for i, num in enumerate(nums):
+        #     while stack and nums[stack[-1]] < num:
+        #         idx = stack.pop()
+        #         result[idx] = num
+        #     stack.append(i)
+            
+        # return result
+        
+        result = []
         stack = []
-        for i, num in enumerate(nums):
-            while stack and nums[stack[-1]] < num:
-                idx = stack.pop()
-                result[idx] = num
-            stack.append(i)
+        node = head
+        while node:
+            result.append(0)
+            while stack and stack[-1][0] < node.val:
+                _, idx = stack.pop()
+                result[idx] = node.val
+                
+            stack.append((node.val, len(result) - 1))
+            
+            node = node.next
             
         return result
