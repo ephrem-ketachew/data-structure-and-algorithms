@@ -1,0 +1,44 @@
+# A. Lucky Division
+# time limit per test2 seconds
+# memory limit per test256 megabytes
+# Petya loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.
+
+# Petya calls a number almost lucky if it could be evenly divided by some lucky number. Help him find out if the given number n is almost lucky.
+
+# Input
+# The single line contains an integer n (1 ≤ n ≤ 1000) — the number that needs to be checked.
+
+# Output
+# In the only line print "YES" (without the quotes), if number n is almost lucky. Otherwise, print "NO" (without the quotes).
+
+# Examples
+# InputCopy
+# 47
+# OutputCopy
+# YES
+# InputCopy
+# 16
+# OutputCopy
+# YES
+# InputCopy
+# 78
+# OutputCopy
+# NO
+# Note
+# Note that all lucky numbers are almost lucky as any number is evenly divisible by itself.
+
+# In the first sample 47 is a lucky number. In the second sample 16 is divisible by 4.
+
+
+import sys
+
+input = sys.stdin.readline
+
+lucky_nums = [4, 7, 44, 47, 74, 77, 444, 447, 474, 744, 477, 747, 774, 777]
+
+num = int(input())
+
+if any(num % n == 0 for n in lucky_nums):
+    print('YES')
+else:
+    print('NO')
