@@ -46,15 +46,28 @@ class Solution:
         # return False
         
         # ANOTHER APPROACH(SECOND TRIAL) - PREFIX SUM   
-        suffix_max = [0] * len(nums)
-        suffix_max[-1] = nums[-1]
-        for i in range(len(nums) - 2, -1, -1):
-            suffix_max[i] = max(nums[i], suffix_max[i + 1])
+        # suffix_max = [0] * len(nums)
+        # suffix_max[-1] = nums[-1]
+        # for i in range(len(nums) - 2, -1, -1):
+        #     suffix_max[i] = max(nums[i], suffix_max[i + 1])
         
-        min_seen = nums[0]
-        for i in range(1, len(nums) - 1):
-            if min_seen < nums[i] < suffix_max[i + 1]:
+        # min_seen = nums[0]
+        # for i in range(1, len(nums) - 1):
+        #     if min_seen < nums[i] < suffix_max[i + 1]:
+        #         return True
+        #     min_seen = min(min_seen, nums[i])
+            
+        # return False
+        
+        
+        # O(1) SPACE
+        first = second = float('inf')
+        for num in nums:
+            if num <= first:
+                first = num
+            elif num <= second:
+                second = num
+            else:
                 return True
-            min_seen = min(min_seen, nums[i])
             
         return False
