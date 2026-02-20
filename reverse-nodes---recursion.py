@@ -36,35 +36,57 @@ class ListNode:
         self.next = next
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        node_cnt = 0
-        node = head
-        while node:
-            node = node.next
-            node_cnt += 1
+        # node_cnt = 0
+        # node = head
+        # while node:
+        #     node = node.next
+        #     node_cnt += 1
         
-        complete_node_cnt = (node_cnt // k) * k
-        new_head = None
-        count = 0
-        node = head
-        current = None
-        while count < complete_node_cnt:
-            previous = current
-            current = node
+        # complete_node_cnt = (node_cnt // k) * k
+        # new_head = None
+        # count = 0
+        # node = head
+        # current = None
+        # while count < complete_node_cnt:
+        #     previous = current
+        #     current = node
             
+        #     prev = None
+        #     for _ in range(k):
+        #         cur = node
+        #         node = node.next
+        #         cur.next = prev
+        #         prev = cur
+
+        #     if new_head == None:
+        #         new_head = prev
+        #     else:
+        #         previous.next = prev
+                
+        #     count += k
+            
+        # current.next = node
+        
+        # return new_head
+        
+        count = 0
+        curr = head
+        while count < k and curr:
+            curr = curr.next
+            count += 1
+            
+        if count == k:
+            
+            cur_rev = head
             prev = None
             for _ in range(k):
-                cur = node
-                node = node.next
-                cur.next = prev
-                prev = cur
-
-            if new_head == None:
-                new_head = prev
-            else:
-                previous.next = prev
+                next_node = cur_rev.next
+                cur_rev.next = prev
+                prev = cur_rev
+                cur_rev = next_node
                 
-            count += k
+            head.next = self.reverseKGroup(curr, k)
             
-        current.next = node
+            return prev
         
-        return new_head
+        return head
