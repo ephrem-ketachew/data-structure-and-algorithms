@@ -31,27 +31,70 @@
 
 class Solution:
     def decodeString(self, s: str) -> str:
-        stack = []
-        digit = []
-        for ch in s:
-            if ch == ']':
-                cur_s = []
-                while stack[-1] != '[':
-                    cur_s.append(stack.pop())
-                stack.pop()
+        # stack = []
+        # digit = []
+        # for ch in s:
+        #     if ch == ']':
+        #         cur_s = []
+        #         while stack[-1] != '[':
+        #             cur_s.append(stack.pop())
+        #         stack.pop()
                 
-                cur_s.reverse()
-                cur_s = ''.join(cur_s)
-                freq = stack.pop()
-                stack.append(freq * cur_s)
-            elif ch.isdecimal():
-                digit.append(ch)
-            elif ch == '[':
-                if digit:
-                    num = int(''.join(digit))
-                    digit = []
-                    stack.extend([num, '['])
-            else:
-                stack.append(ch)
+        #         cur_s.reverse()
+        #         cur_s = ''.join(cur_s)
+        #         freq = stack.pop()
+        #         stack.append(freq * cur_s)
+        #     elif ch.isdecimal():
+        #         digit.append(ch)
+        #     elif ch == '[':
+        #         if digit:
+        #             num = int(''.join(digit))
+        #             digit = []
+        #             stack.extend([num, '['])
+        #     else:
+        #         stack.append(ch)
                     
-        return ''.join(stack)
+        # return ''.join(stack)
+        
+        digit = []
+        cur_str = []
+        i = 0
+        ans = ''
+        while i < len(s):
+            if s[i].isdecimal():
+                while s[i].isdecimal():
+                    digit.append(s[i])
+                    i += 1
+                
+                num = int(''.join(digit))
+                digit = []
+            
+                i += 1
+                cur_str = []
+                open = 1
+                while open > 0:
+                    if s[i] == ']':
+                        open -= 1
+                        if open == 0:
+                            break
+                    if s[i] == '[':
+                        open += 1
+                    cur_str.append(s[i])
+                    i += 1
+                    
+                cur_s = ''.join(cur_str)
+                cur_str = []
+                
+                ans += num * self.decodeString(cur_s)
+                
+                i += 1
+            else:
+                while i < len(s) and s[i].isalpha():
+                    cur_str.append(s[i])
+                    i += 1
+                    
+                cur_s = ''.join(cur_str)
+                cur_str = []
+                ans += cur_s
+            
+        return ans
