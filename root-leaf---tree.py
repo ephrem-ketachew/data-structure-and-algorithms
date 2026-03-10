@@ -33,18 +33,33 @@ class TreeNode:
         self.right = right
 class Solution:
     def sumRootToLeaf(self, root: Optional[TreeNode]) -> int:
+        # self.sum = 0
+        # def dfs(root: Optional[TreeNode], digits: list[str]) -> None:
+        #     if not root.left and not root.right:
+        #         digits = digits + [str(root.val)]
+        #         self.sum += int(''.join(digits), 2)
+            
+        #     if root.left:
+        #         dfs(root.left, digits + [str(root.val)])
+                
+        #     if root.right:
+        #         dfs(root.right, digits + [str(root.val)])
+            
+        # dfs(root, [])
+        
+        # return self.sum
+    
         self.sum = 0
-        def dfs(root: Optional[TreeNode], digits: list[str]) -> list[list[int]]:
+        def dfs(root: Optional[TreeNode], num: int) -> None:
             if not root.left and not root.right:
-                digits = digits + [str(root.val)]
-                self.sum += int(''.join(digits), 2)
+                self.sum += num * 2 + root.val
             
             if root.left:
-                dfs(root.left, digits + [str(root.val)])
+                dfs(root.left, num * 2 + root.val)
                 
             if root.right:
-                dfs(root.right, digits + [str(root.val)])
+                dfs(root.right, num * 2 + root.val)
             
-        dfs(root, [])
+        dfs(root, 0)
         
         return self.sum
