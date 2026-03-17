@@ -83,10 +83,16 @@ for _ in range(t):
     n = int(input())
     
     vowels = 'aeiou'
-    if n <= 5:
-        output.append(vowels[:n])
-    else:
-        s = vowels + (n - 5) * 'u'
-        output.append(s)
+    m = n // 5
+    remaning = n - m * 5
+    s = ''
+    for ch in vowels:
+        s += ch * m
+        if remaning > 0:
+            s += ch
+            remaning -= 1
+        
+    output.append(s[:n])
+
         
 print('\n'.join(output))
