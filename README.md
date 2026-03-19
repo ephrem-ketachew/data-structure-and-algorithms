@@ -1,7 +1,7 @@
 # 🧠 Algorithm Arena
 
-<img width="1444" height="743" alt="image" src="https://github.com/user-attachments/assets/22251296-be7c-4e75-8638-38eebb4c4fe5" />
-<img width="467" height="749" alt="image" src="https://github.com/user-attachments/assets/0b3e04c3-7a12-462b-bd4a-5f0aae92c2e1" />
+<img width="1445" height="771" alt="image" src="https://github.com/user-attachments/assets/fc4ea4c7-a5db-4c51-9952-01599cb2682c" />
+
 
 
 
