@@ -80,8 +80,15 @@ for _ in range(t):
     n = int(input())
     s = input()
     
-    if s.count('1') % 2 == 0:
-        output.append('YES')
+    ones = s.count('1')
+    if ones % 2 == 0:
+        if ones != 2:
+            output.append('YES')
+        else:
+            if n == 2 or s[s.index('1') + 1] == '1':
+                output.append('NO')
+            else:
+                output.append('YES')
     else:
         output.append('NO')
         
