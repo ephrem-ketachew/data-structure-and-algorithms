@@ -70,31 +70,60 @@ class Solution:
         # dfs(sr, sc, color, image[sr][sc], set())
         
         # return image
+        
+        
+        
             
+        # original_color = image[sr][sc]
+        # queue = deque([(sr, sc)])
+        # m, n = len(image), len(image[0])
+        # visited = set()
+        # while queue:
+        #     q = len(queue)
+        #     for _ in range(q):
+        #         i, j = queue.popleft()
+                
+        #         if not 0 <= i < m or not 0 <= j < n:
+        #             continue
+            
+        #         if (i, j) in visited:
+        #             continue
+                
+        #         if image[i][j] != original_color:
+        #             continue
+                
+        #         image[i][j] = color
+        #         visited.add((i, j))
+                
+        #         queue.append((i - 1, j))
+        #         queue.append((i + 1, j))
+        #         queue.append((i, j - 1))
+        #         queue.append((i, j + 1))
+                    
+        # return image
+        
+
+    
         original_color = image[sr][sc]
+        if original_color == color:
+            return image
+        
         queue = deque([(sr, sc)])
         m, n = len(image), len(image[0])
-        visited = set()
         while queue:
-            q = len(queue)
-            for _ in range(q):
-                i, j = queue.popleft()
-                
-                if not 0 <= i < m or not 0 <= j < n:
-                    continue
+            i, j = queue.popleft()
+
+            if not (0 <= i < m and 0 <= j < n):
+                continue
             
-                if (i, j) in visited:
-                    continue
+            if image[i][j] != original_color:
+                continue
+            
+            image[i][j] = color
+            
+            queue.append((i - 1, j))
+            queue.append((i + 1, j))
+            queue.append((i, j - 1))
+            queue.append((i, j + 1))
                 
-                if image[i][j] != original_color:
-                    continue
-                
-                image[i][j] = color
-                visited.add((i, j))
-                
-                queue.append((i - 1, j))
-                queue.append((i + 1, j))
-                queue.append((i, j - 1))
-                queue.append((i, j + 1))
-                    
         return image
