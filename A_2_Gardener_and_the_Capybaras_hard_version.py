@@ -1,0 +1,125 @@
+# A2. Gardener and the Capybaras (hard version)
+# time limit per test1 second
+# memory limit per test256 megabytes
+# This is an hard version of the problem. The difference between the versions is that the string can be longer than in the easy version. You can only do hacks if both versions of the problem are passed.
+
+# Kazimir Kazimirovich is a Martian gardener. He has a huge orchard of binary balanced apple trees.
+
+# Recently Casimir decided to get himself three capybaras. The gardener even came up with their names and wrote them down on a piece of paper. The name of each capybara is a non-empty line consisting of letters "a" and "b".
+
+# Denote the names of the capybaras by the lines a
+# , b
+# , and c
+# . Then Casimir wrote the nonempty lines a
+# , b
+# , and c
+#  in a row without spaces. For example, if the capybara's name was "aba", "ab", and "bb", then the string the gardener wrote down would look like "abaabbb".
+
+# The gardener remembered an interesting property: either the string b
+#  is lexicographically not smaller than the strings a
+#  and c
+#  at the same time, or the string b
+#  is lexicographically not greater than the strings a
+#  and c
+#  at the same time. In other words, either a≤b
+#  and c≤b
+#  are satisfied, or b≤a
+#  and b≤c
+#  are satisfied (or possibly both conditions simultaneously). Here ≤
+#  denotes the lexicographic "less than or equal to" for strings. Thus, a≤b
+#  means that the strings must either be equal, or the string a
+#  must stand earlier in the dictionary than the string b
+# . For a more detailed explanation of this operation, see "Notes" section.
+
+# Today the gardener looked at his notes and realized that he cannot recover the names because they are written without spaces. He is no longer sure if he can recover the original strings a
+# , b
+# , and c
+# , so he wants to find any triplet of names that satisfy the above property.
+
+
+# Input
+# Each test contains multiple test cases. The first line contains the number of test cases t
+#  (1≤t≤104
+# ). The description of the test cases follows.
+
+# The only line of a test case contains the string s
+#  (3≤|s|≤2⋅105
+# ) — the names of the capybaras, written together. The string consists of English letters 'a' and 'b' only.
+
+# It is guaranteed that the sum of string lengths over all test cases does not exceed 4⋅105
+# .
+
+# Output
+# For each test case, print three strings a
+# , b
+#  and c
+#  on a single line, separated by spaces — names of capybaras, such that writing them without spaces results in a line s
+# . Either a≤b
+#  and c≤b
+# , or b≤a
+#  and b≤c
+#  must be satisfied.
+
+# If there are several ways to restore the names, print any of them. If the names cannot be recovered, print ":(" (without quotes).
+
+# Example
+# InputCopy
+# 5
+# bbba
+# aba
+# aaa
+# abba
+# abbb
+# OutputCopy
+# b bb a
+# a b a
+# a a a
+# ab b a
+# a bb b
+# Note
+# A string x
+#  is lexicographically smaller than a string y
+#  if and only if one of the following holds:
+
+# x
+#  is a prefix of y
+# , but x≠y
+# ;
+# in the first position where x
+#  and y
+#  differ, the string x
+#  has the letter 'a', and the string y
+#  has the letter 'b'.
+# Now let's move on to the examples.
+
+# In the first test case, one of the possible ways to split the line s
+#  into three lines —is "b", "bb", "a".
+
+# In the third test case, we can see that the split satisfies two conditions at once (i.e., a≤b
+# , c≤b
+# , b≤a
+#  and b≤c
+#  are true simultaneously).
+
+import sys
+
+input = sys.stdin.readline
+
+t = int(input())
+output = []
+for _ in range(t):
+    s = input().strip()
+    
+    if 'a' in s[1:-1]:
+        idx = s[1:-1].index('a') + 1
+        a = s[:idx]
+        b = 'a'
+        c = s[idx + 1:]
+    else:
+        a = s[0]
+        b = s[1:-1]
+        c = s[-1]
+        
+    output.append(f'{a} {b} {c}')
+    
+print('\n'.join(output))
