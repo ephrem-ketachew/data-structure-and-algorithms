@@ -38,13 +38,12 @@ from collections import deque
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         queue = deque([0])
-        visited = set()
+        visited = set([0])
         while queue:
-            room = queue.popleft()
-            for key in room:
+            i = queue.popleft()
+            for key in rooms[i]:
                 if key not in visited:
                     queue.append(key)
                     visited.add(key)
-                    
+
         return len(visited) == len(rooms)
-                    
