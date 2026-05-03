@@ -25,19 +25,24 @@ from collections import Counter
 
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
+        # if len(s) != len(goal):
+        #     return False
+        
+        # if s == goal:
+        #     return True
+        
+        # if Counter(s) != Counter(goal):
+        #     return False
+        
+        # for _ in range(len(s) - 1):
+        #     s = s[1:] + s[0]
+        #     if s == goal:
+        #         return True
+            
+        # return False
+        
         if len(s) != len(goal):
             return False
         
-        if s == goal:
-            return True
-        
-        if Counter(s) != Counter(goal):
-            return False
-        
-        for _ in range(len(s) - 1):
-            s = s[1:] + s[0]
-            if s == goal:
-                return True
-            
-        return False
+        return goal in s + s
             
