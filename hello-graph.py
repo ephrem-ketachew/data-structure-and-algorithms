@@ -29,11 +29,17 @@ from collections import defaultdict
 
 class Solution:
     def findCenter(self, edges: List[List[int]]) -> int:
-        adj = defaultdict(list)
-        for u, v in edges:
-            adj[u].append(v)
-            adj[v].append(u)
+        # adj = defaultdict(list)
+        # for u, v in edges:
+        #     adj[u].append(v)
+        #     adj[v].append(u)
             
-        for u in adj:
-            if len(adj[u]) > 1:
-                return u
+        # for u in adj:
+        #     if len(adj[u]) > 1:
+        #         return u
+        
+        u, v = edges[0]
+        if u in edges[1]:
+            return u
+        
+        return v
