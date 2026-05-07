@@ -36,33 +36,54 @@ from typing import List
 
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
-        visited = set()
-        def dfs(node: int, prev: int, first_set: set, second_set: set) -> bool:
-            visited.add(node)
-            if prev == 0:
-                if node in first_set:
-                    return False
-                if node in second_set:
-                    return True
-                second_set.add(node)
-            else:
-                if node in second_set:
-                    return False
-                if node in first_set:
-                    return True
-                first_set.add(node)
+        # visited = set()
+        # def dfs(node: int, prev: int, first_set: set, second_set: set) -> bool:
+        #     visited.add(node)
+        #     if prev == 0:
+        #         if node in first_set:
+        #             return False
+        #         if node in second_set:
+        #             return True
+        #         second_set.add(node)
+        #     else:
+        #         if node in second_set:
+        #             return False
+        #         if node in first_set:
+        #             return True
+        #         first_set.add(node)
              
-            has_valid_partition = True
-            for neighbor in graph[node]:                        
-                has_valid_partition = has_valid_partition and dfs(neighbor, prev ^ 1, first_set, second_set)
-                if not has_valid_partition:
-                    return False
+        #     has_valid_partition = True
+        #     for neighbor in graph[node]:                        
+        #         has_valid_partition = has_valid_partition and dfs(neighbor, prev ^ 1, first_set, second_set)
+        #         if not has_valid_partition:
+        #             return False
                     
-            return has_valid_partition
+        #     return has_valid_partition
          
-        for i in range(len(graph)):
-            if i not in visited:
-                if not dfs(i, 0, set(), set()):
+        # for i in range(len(graph)):
+        #     if i not in visited:
+        #         if not dfs(i, 0, set(), set()):
+        #             return False
+                
+        # return True
+        
+        n = len(graph)
+        colors = [0] * n
+        def dfs(node: int, color: int) -> bool:
+            colors[node] = color
+            for neighbor in graph[node]:
+                if colors[neighbor] == color:
+                    return False
+                
+                if colors[neighbor] == 0:
+                    if not dfs(neighbor, -color):
+                        return False
+                
+            return True
+        
+        for i in range(n):
+            if colors[i] == 0:
+                if not dfs(i, 1):
                     return False
                 
         return True
