@@ -36,38 +36,68 @@ from collections import defaultdict
 
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        # adj = defaultdict(list)
+        # for a, b in prerequisites:
+        #     adj[a].append(b)
+            
+        # def dfs(node: int) -> List[int]:
+        #     if state[node] == 1:
+        #         return [-1]
+            
+        #     if state[node] == 2:
+        #         return []
+            
+        #     state[node] = 1
+        #     order = []
+        #     for neighbor in adj[node]:
+        #         arr = dfs(neighbor)
+        #         if len(arr) == 1 and arr[0] == -1:
+        #             return [-1]
+                
+        #         order.extend(arr)
+                
+        #     order.append(node)
+        #     state[node] = 2
+        #     return order
+        
+        
+        # state = [0] * numCourses
+        # order = []
+        # for i in range(numCourses):
+        #     if state[i] == 0:
+        #         curr = dfs(i)
+        #         if len(curr) == 1 and curr[0] == -1:
+        #             return []
+        #         order.extend(curr)
+                
+        # return order
+        
         adj = defaultdict(list)
         for a, b in prerequisites:
             adj[a].append(b)
             
-        def dfs(node: int) -> List[int]:
-            if state[node] == 1:
-                return [-1]
-            
+        state = [0] * numCourses
+        order = []
+        def dfs(node: int) -> bool:
             if state[node] == 2:
-                return []
+                return False
+            
+            if state[node] == 1:
+                return True
             
             state[node] = 1
-            order = []
             for neighbor in adj[node]:
-                arr = dfs(neighbor)
-                if len(arr) == 1 and arr[0] == -1:
-                    return [-1]
-                
-                order.extend(arr)
+                if dfs(neighbor):
+                    return True
                 
             order.append(node)
             state[node] = 2
-            return order
+            
+            return False
         
-        
-        state = [0] * numCourses
-        order = []
         for i in range(numCourses):
             if state[i] == 0:
-                curr = dfs(i)
-                if len(curr) == 1 and curr[0] == -1:
+                if dfs(i):
                     return []
-                order.extend(curr)
                 
         return order
