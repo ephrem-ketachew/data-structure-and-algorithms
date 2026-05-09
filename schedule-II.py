@@ -32,10 +32,33 @@
 # All the pairs [ai, bi] are distinct.
 
 from typing import List
-from collections import defaultdict
+from collections import defaultdict, deque
 
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        adj = defaultdict(list)
+        in_degree = [0] * numCourses
+        for u, v in prerequisites:
+            in_degree[u] += 1
+            adj[v].append(u)
+            
+        queue = deque()
+        for i in range(numCourses):
+            if in_degree[i] == 0:
+                queue.append(i)
+                
+        result = []
+        while queue:
+            node = queue.popleft()
+            result.append(node)
+            for neighbor in adj[node]:
+                in_degree[neighbor] -= 1
+                if in_degree[neighbor] == 0:
+                    queue.append(neighbor)
+                    
+        
+        return result if len(result) == numCourses else []
+    
         # adj = defaultdict(list)
         # for a, b in prerequisites:
         #     adj[a].append(b)
@@ -72,32 +95,32 @@ class Solution:
                 
         # return order
         
-        adj = defaultdict(list)
-        for a, b in prerequisites:
-            adj[a].append(b)
+        # adj = defaultdict(list)
+        # for a, b in prerequisites:
+        #     adj[a].append(b)
             
-        state = [0] * numCourses
-        order = []
-        def dfs(node: int) -> bool:
-            if state[node] == 2:
-                return False
+        # state = [0] * numCourses
+        # order = []
+        # def dfs(node: int) -> bool:
+        #     if state[node] == 2:
+        #         return False
             
-            if state[node] == 1:
-                return True
+        #     if state[node] == 1:
+        #         return True
             
-            state[node] = 1
-            for neighbor in adj[node]:
-                if dfs(neighbor):
-                    return True
+        #     state[node] = 1
+        #     for neighbor in adj[node]:
+        #         if dfs(neighbor):
+        #             return True
                 
-            order.append(node)
-            state[node] = 2
+        #     order.append(node)
+        #     state[node] = 2
             
-            return False
+        #     return False
         
-        for i in range(numCourses):
-            if state[i] == 0:
-                if dfs(i):
-                    return []
+        # for i in range(numCourses):
+        #     if state[i] == 0:
+        #         if dfs(i):
+        #             return []
                 
-        return order
+        # return order
