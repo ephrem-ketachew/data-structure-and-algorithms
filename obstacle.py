@@ -33,20 +33,44 @@
 
 from typing import List
 import heapq
+from collections import deque
 
 class Solution:
     def minimumObstacles(self, grid: List[List[int]]) -> int:
+        # m, n = len(grid), len(grid[0])
+        # moves = [(0, 1), (0, -1), (-1, 0), (1, 0)]
+        # grid_removal = [[float('inf')] * n for _ in range(m)]
+        # min_heap = [(0, 0, 0)]
+        # while min_heap:
+        #     current_removal, r, c = heapq.heappop(min_heap)
+        #     if current_removal > grid_removal[r][c]:
+        #         continue
+            
+        #     if r == m - 1 and c == n - 1:
+        #         return current_removal
+            
+        #     for dr, dc in moves:
+        #         x, y = r + dr, c + dc
+        #         if 0 <= x < m and 0 <= y < n:
+        #             new_removal = current_removal + grid[x][y]
+        #             if new_removal < grid_removal[x][y]:
+        #                 grid_removal[x][y] = new_removal
+        #                 heapq.heappush(min_heap, (new_removal, x, y))
+                        
+        # return 'Those who cling to life die. Those who cling to death live.'
+        
         m, n = len(grid), len(grid[0])
         moves = [(0, 1), (0, -1), (-1, 0), (1, 0)]
+        dq = deque([(0, 0, 0)])
         grid_removal = [[float('inf')] * n for _ in range(m)]
-        min_heap = [(0, 0, 0)]
-        while min_heap:
-            current_removal, r, c = heapq.heappop(min_heap)
-            if current_removal > grid_removal[r][c]:
-                continue
-            
+        grid_removal[0][0] = 0
+        while dq:
+            current_removal, r, c = dq.popleft()
             if r == m - 1 and c == n - 1:
                 return current_removal
+            
+            if current_removal > grid_removal[r][c]:
+                continue
             
             for dr, dc in moves:
                 x, y = r + dr, c + dc
@@ -54,6 +78,10 @@ class Solution:
                     new_removal = current_removal + grid[x][y]
                     if new_removal < grid_removal[x][y]:
                         grid_removal[x][y] = new_removal
-                        heapq.heappush(min_heap, (new_removal, x, y))
-                        
+                        if grid[x][y] == 0:
+                            dq.appendleft((new_removal, x, y))
+                        else:
+                            dq.append((new_removal, x, y))
+                            
+                            
         return 'Those who cling to life die. Those who cling to death live.'
