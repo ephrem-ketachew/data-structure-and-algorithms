@@ -1,4 +1,4 @@
-# Q1. Digit Frequency Score
+# Q1. Digit Frequency Score 
 # Easy
 # 3 pt.
 # You are given an integer n.
