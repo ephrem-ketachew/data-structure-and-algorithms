@@ -28,16 +28,26 @@ from typing import List
 
 class Solution:
     def removeCoveredIntervals(self, intervals: List[List[int]]) -> int:
+        # count = 0
+        # n = len(intervals)
+        # for i in range(n):
+        #     a, b = intervals[i]
+        #     for j in range(n):
+        #         if i != j:
+        #             c, d = intervals[j]
+        #             if c <= a and b <= d:
+        #                 count += 1
+        #                 break
+                
+        # return n - count
+                
         count = 0
-        n = len(intervals)
-        for i in range(n):
-            a, b = intervals[i]
-            for j in range(n):
-                if i != j:
-                    c, d = intervals[j]
-                    if c <= a and b <= d:
-                        count += 1
-                        break
+        intervals.sort(key=lambda x: (x[0], -x[1]))
+        max_end = 0
+        for _, end in intervals:
+            if end <= max_end:
+                count += 1
+            else:
+                max_end = end
                 
-        return n - count
-                
+        return len(intervals) - count
