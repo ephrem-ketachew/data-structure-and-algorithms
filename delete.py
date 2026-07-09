@@ -34,23 +34,35 @@ from collections import Counter
 
 class Solution:
     def deleteAndEarn(self, nums: List[int]) -> int:
-        counter = Counter(nums)
-        unique_nums = sorted(set(nums))
-        m = len(unique_nums)
-        if m == 1:
-            return sum(nums)
+        # counter = Counter(nums)
+        # unique_nums = sorted(set(nums))
+        # m = len(unique_nums)
+        # if m == 1:
+        #     return sum(nums)
         
-        dp = [0] * m
-        dp[0] = unique_nums[0] * counter[unique_nums[0]]
-        max_seen1, max_seen2 = 0, dp[0]
-        for i in range(1, m):
-            dp[i] = unique_nums[i] * counter[unique_nums[i]]
-            if unique_nums[i] - unique_nums[i - 1] > 1:
-                dp[i] += max_seen2
-            else:
-                dp[i] += max_seen1
+        # dp = [0] * m
+        # dp[0] = unique_nums[0] * counter[unique_nums[0]]
+        # max_seen1, max_seen2 = 0, dp[0]
+        # for i in range(1, m):
+        #     dp[i] = unique_nums[i] * counter[unique_nums[i]]
+        #     if unique_nums[i] - unique_nums[i - 1] > 1:
+        #         dp[i] += max_seen2
+        #     else:
+        #         dp[i] += max_seen1
                 
-            max_seen1 = max_seen2
-            max_seen2 = max(max_seen2, dp[i])
+        #     max_seen1 = max_seen2
+        #     max_seen2 = max(max_seen2, dp[i])
             
-        return max(dp)
+        # return max(dp)
+        
+        max_val = max(nums)
+        bucket = [0] * (max_val + 1)
+        for num in nums:
+            bucket[num] += num
+            
+        dp = [0] * (max_val + 1)
+        dp[1] = bucket[1]
+        for i in range(2, max_val + 1):
+            dp[i] = max(dp[i - 1], dp[i - 2] + bucket[i])
+            
+        return dp[max_val]
