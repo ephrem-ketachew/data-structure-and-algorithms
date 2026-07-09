@@ -32,25 +32,34 @@ from collections import deque
 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        if amount == 0:
-            return 0
+        # if amount == 0:
+        #     return 0
         
-        queue = deque([0])
-        visited = {0}
-        count = 1
-        while queue:
-            t = len(queue)
-            for _ in range(t):
-                node = queue.popleft()
-                for coin in coins:
-                    new_node = node + coin
-                    if new_node == amount:
-                        return count
+        # queue = deque([0])
+        # visited = {0}
+        # count = 1
+        # while queue:
+        #     t = len(queue)
+        #     for _ in range(t):
+        #         node = queue.popleft()
+        #         for coin in coins:
+        #             new_node = node + coin
+        #             if new_node == amount:
+        #                 return count
                     
-                    if new_node < amount and new_node not in visited:
-                        queue.append(new_node)
-                        visited.add(new_node)
+        #             if new_node < amount and new_node not in visited:
+        #                 queue.append(new_node)
+        #                 visited.add(new_node)
                         
-            count += 1
+        #     count += 1
             
-        return -1
+        # return -1
+        
+        dp = [(amount + 1)] * (amount + 1)
+        dp[0] = 0
+        for a in range(1, amount + 1):
+            for c in coins:
+                if a - c >= 0:
+                    dp[a] = min(dp[a], 1 + dp[a - c])
+                    
+        return dp[amount] if dp[amount] != amount + 1 else -1
