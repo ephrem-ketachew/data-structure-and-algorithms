@@ -45,18 +45,22 @@ import heapq
 
 class Solution:
     def maximumScore(self, a: int, b: int, c: int) -> int:
-        heap = [-a, -b, -c]
-        heapq.heapify(heap)
-        score = 0
-        while len(heap) >= 2:
-            m1 = -heapq.heappop(heap)
-            m2 = -heapq.heappop(heap)
-            score += 1
-            m1 -= 1
-            m2 -= 1
-            if m1 > 0:
-                heapq.heappush(heap, -m1)
-            if m2 > 0:
-                heapq.heappush(heap, -m2)
+        # heap = [-a, -b, -c]
+        # heapq.heapify(heap)
+        # score = 0
+        # while len(heap) >= 2:
+        #     m1 = -heapq.heappop(heap)
+        #     m2 = -heapq.heappop(heap)
+        #     score += 1
+        #     m1 -= 1
+        #     m2 -= 1
+        #     if m1 > 0:
+        #         heapq.heappush(heap, -m1)
+        #     if m2 > 0:
+        #         heapq.heappush(heap, -m2)
                 
-        return score
+        # return score
+        
+        total = a + b + c
+        mx = max(a, b, c)
+        return min(total // 2, total - mx)
