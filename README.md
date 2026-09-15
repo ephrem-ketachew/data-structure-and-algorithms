@@ -99,4 +99,8 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0836-rectangle-overlap/) | Easy |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3436-find-valid-emails](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3436-find-valid-emails/) | Easy |
 <!---LeetCode Topics End-->
