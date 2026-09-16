@@ -102,5 +102,6 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1731-the-number-of-employees-which-report-to-each-employee/) | Easy |
 | [3436-find-valid-emails](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3436-find-valid-emails/) | Easy |
 <!---LeetCode Topics End-->
