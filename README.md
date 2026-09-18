@@ -105,4 +105,5 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1731-the-number-of-employees-which-report-to-each-employee/) | Easy |
 | [3436-find-valid-emails](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3436-find-valid-emails/) | Easy |
+| [3465-find-products-with-valid-serial-numbers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3465-find-products-with-valid-serial-numbers/) | Easy |
 <!---LeetCode Topics End-->
