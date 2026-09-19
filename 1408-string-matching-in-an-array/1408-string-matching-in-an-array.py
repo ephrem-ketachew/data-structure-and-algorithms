@@ -1,6 +1,5 @@
 class Solution:
     def stringMatching(self, words: list[str]) -> list[str]:
-        words.sort(key=lambda x:len(x))
         ans = []
         for i, word in enumerate(words):
             for j, s in enumerate(words):
