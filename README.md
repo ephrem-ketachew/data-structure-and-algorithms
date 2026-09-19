@@ -54,6 +54,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
+| [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3652-best-time-to-buy-and-sell-stock-using-strategy/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -67,6 +68,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -106,4 +108,8 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1731-the-number-of-employees-which-report-to-each-employee/) | Easy |
 | [3436-find-valid-emails](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3436-find-valid-emails/) | Easy |
 | [3465-find-products-with-valid-serial-numbers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3465-find-products-with-valid-serial-numbers/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 <!---LeetCode Topics End-->
