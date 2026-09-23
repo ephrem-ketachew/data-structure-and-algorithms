@@ -53,6 +53,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0055-jump-game](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0055-jump-game/) | Medium |
 | [0063-unique-paths-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0064-minimum-path-sum/) | Medium |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
@@ -131,6 +132,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0055-jump-game](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0055-jump-game/) | Medium |
 | [0062-unique-paths](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0064-minimum-path-sum/) | Medium |
@@ -146,4 +148,8 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0055-jump-game](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0055-jump-game/) | Medium |
 <!---LeetCode Topics End-->
