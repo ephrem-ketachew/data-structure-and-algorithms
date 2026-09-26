@@ -4,16 +4,18 @@ class Solution:
         for key, value in knowledge:
             kv[key] = value
 
-        ans = temp = ''
+        ans = []
+        temp = []
         for char in s:
             if char == '(' or char == ')':
                 if char == ')':
-                    temp = kv[temp] if kv[temp] else '?'
-                ans += temp
-                temp = ''
+                    key = ''.join(temp)
+                    temp = kv[key] if kv[key] else ['?']
+                ans.extend(temp)
+                temp = []
             else:
-                temp += char
+                temp.append(char)
 
-        ans += temp
+        ans.extend(temp)
 
-        return ans
+        return ''.join(ans)
