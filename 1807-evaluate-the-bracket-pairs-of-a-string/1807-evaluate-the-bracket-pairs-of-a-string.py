@@ -5,17 +5,18 @@ class Solution:
             kv[key] = value
 
         ans = []
-        temp = []
-        for char in s:
-            if char == '(' or char == ')':
-                if char == ')':
-                    key = ''.join(temp)
-                    temp = kv[key] if kv[key] else ['?']
-                ans.extend(temp)
-                temp = []
+        i = 0
+        while i < len(s):
+            if s[i] == '(':
+                j = s.find(')', i + 1)
+                key = s[i+1:j]
+                if kv[key]:
+                    ans.append(kv[key])
+                else:
+                    ans.append('?')
+                i = j + 1
             else:
-                temp.append(char)
-
-        ans.extend(temp)
+                ans.append(s[i])
+                i += 1
 
         return ''.join(ans)
