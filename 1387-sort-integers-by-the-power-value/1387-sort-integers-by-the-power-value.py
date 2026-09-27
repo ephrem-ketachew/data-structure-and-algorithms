@@ -23,7 +23,6 @@ class Solution:
             
             power.append((num, dp[num]))
 
-        print(dp)
         power.sort(key=lambda x: (x[1], x[0]))
         return power[k - 1][0]
 
