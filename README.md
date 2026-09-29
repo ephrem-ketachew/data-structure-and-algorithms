@@ -86,6 +86,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
@@ -152,6 +153,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0064-minimum-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0064-minimum-path-sum/) | Medium |
 | [0120-triangle](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0120-triangle/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
+| [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
@@ -205,4 +207,8 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
+## Longest Common Subsequence
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 <!---LeetCode Topics End-->
