@@ -91,6 +91,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0022-generate-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0022-generate-parentheses/) | Medium |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0583-delete-operation-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0583-delete-operation-for-two-strings/) | Medium |
+| [1092-shortest-common-supersequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
@@ -163,6 +164,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0583-delete-operation-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
+| [1092-shortest-common-supersequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
 ## Combinatorics
@@ -227,6 +229,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
+| [1092-shortest-common-supersequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
