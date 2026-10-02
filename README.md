@@ -62,6 +62,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
+| [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
@@ -161,6 +162,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0120-triangle](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0120-triangle/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
+| [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
 ## Combinatorics
@@ -224,6 +226,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0583-delete-operation-for-two-strings/) | Medium |
+| [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
