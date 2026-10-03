@@ -59,6 +59,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0064-minimum-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0064-minimum-path-sum/) | Medium |
 | [0120-triangle](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0120-triangle/) | Medium |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
+| [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
@@ -83,6 +84,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -181,6 +183,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -239,4 +242,16 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0022-generate-parentheses/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
+## Pigeonhole Principle
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
+## Floyd's Cycle Finding Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
 <!---LeetCode Topics End-->
