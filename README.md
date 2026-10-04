@@ -60,6 +60,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0120-triangle](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0120-triangle/) | Medium |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
@@ -180,6 +181,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 ## Binary Search
