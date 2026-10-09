@@ -97,6 +97,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0032-longest-valid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0072-edit-distance](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0072-edit-distance/) | Medium |
 | [0301-remove-invalid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0301-remove-invalid-parentheses/) | Hard |
+| [0415-add-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0415-add-strings/) | Easy |
 | [0583-delete-operation-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0712-minimum-ascii-delete-sum-for-two-strings/) | Medium |
@@ -140,6 +141,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0062-unique-paths/) | Medium |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
+| [0415-add-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0415-add-strings/) | Easy |
 | [0836-rectangle-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0836-rectangle-overlap/) | Easy |
 | [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -161,6 +163,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0415-add-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0415-add-strings/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 | [4020-elevator-requests-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/4020-elevator-requests-i/) | Easy |
 ## Dynamic Programming
