@@ -62,6 +62,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
+| [0860-lemonade-change](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0860-lemonade-change/) | Easy |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
@@ -202,6 +203,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0045-jump-game-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0055-jump-game/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [0860-lemonade-change](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0860-lemonade-change/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
