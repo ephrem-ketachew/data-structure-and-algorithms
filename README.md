@@ -69,6 +69,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
+| [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3652-best-time-to-buy-and-sell-stock-using-strategy/) | Medium |
 | [4020-elevator-requests-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/4020-elevator-requests-i/) | Easy |
@@ -160,6 +161,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
+| [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -201,6 +203,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
+| [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -209,6 +212,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0678-valid-parenthesis-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0860-lemonade-change](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0860-lemonade-change/) | Easy |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
+| [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -287,4 +291,8 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0301-remove-invalid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0301-remove-invalid-parentheses/) | Hard |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 <!---LeetCode Topics End-->
