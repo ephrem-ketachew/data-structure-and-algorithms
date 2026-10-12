@@ -10,7 +10,7 @@ class Solution:
         res = 0
         for _ in range(k):
             curr = 0
-            for i in range(29, -1, -1):
+            for i in range(30):
                 if count[i] > 0:
                     curr |= (1 << i)
                     count[i] -= 1
