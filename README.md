@@ -59,6 +59,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0064-minimum-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0064-minimum-path-sum/) | Medium |
 | [0120-triangle](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0120-triangle/) | Medium |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
+| [0238-product-of-array-except-self](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
@@ -84,6 +85,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0238-product-of-array-except-self/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3652-best-time-to-buy-and-sell-stock-using-strategy/) | Medium |
 ## Two Pointers
