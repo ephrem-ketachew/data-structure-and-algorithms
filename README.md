@@ -120,6 +120,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
@@ -273,6 +274,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1021-remove-outermost-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 ## Bracket Sequences
