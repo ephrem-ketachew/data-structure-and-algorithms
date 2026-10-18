@@ -61,6 +61,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
 | [0860-lemonade-change](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0860-lemonade-change/) | Easy |
@@ -172,6 +173,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
 | [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
@@ -214,6 +216,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
@@ -323,6 +326,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
@@ -337,6 +341,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
@@ -358,4 +363,16 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 <!---LeetCode Topics End-->
