@@ -19,12 +19,9 @@ class Solution:
             if freq == 5:
                 temp += to[tens * 5]
                 num -= tens * 5
-            elif freq == 4:
-                temp += to[tens * 4][::-1]
-                num -= tens * 4
-            elif freq == 9:
-                temp += to[tens * 9][::-1]
-                num -= tens * 9
+            elif freq == 4 or freq == 9:
+                temp += to[tens * freq][::-1]
+                num -= tens * freq
             else:
                 temp += to[tens]
                 num -= tens
