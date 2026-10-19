@@ -104,6 +104,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0013-roman-to-integer/) | Easy |
 | [0020-valid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0022-generate-parentheses/) | Medium |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
@@ -155,6 +156,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0013-roman-to-integer/) | Easy |
 | [0062-unique-paths](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0062-unique-paths/) | Medium |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
 | [0415-add-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0415-add-strings/) | Easy |
@@ -221,6 +223,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0013-roman-to-integer/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
