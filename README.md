@@ -83,6 +83,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3652-best-time-to-buy-and-sell-stock-using-strategy/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
+| [3886-sum-of-sortable-integers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3886-sum-of-sortable-integers/) | Hard |
 | [4020-elevator-requests-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/4020-elevator-requests-i/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -167,6 +168,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
+| [3886-sum-of-sortable-integers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -188,6 +190,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
+| [3886-sum-of-sortable-integers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -259,6 +262,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
 | [2778-sum-of-squares-of-special-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
+| [3886-sum-of-sortable-integers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
