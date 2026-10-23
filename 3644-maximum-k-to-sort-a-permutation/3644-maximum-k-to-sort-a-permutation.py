@@ -3,9 +3,6 @@ class Solution:
         k = -1
         for i, num in enumerate(nums):
             if i != num:
-                if k == -1:
-                    k = i
-                else:
-                    k &= i
+                k &= i
 
         return k if k != -1 else 0
