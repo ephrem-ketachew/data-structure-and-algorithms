@@ -1,8 +1,16 @@
 class Solution:
     def sortPermutation(self, nums: List[int]) -> int:
-        arr = []
+        k = float('inf')
+        idx_map = {num: i for i, num in enumerate(nums)}
         for i, num in enumerate(nums):
-            if i != num:
-                arr.append(num)
+            if num != i:
+                idx = idx_map[i]
+                if k != float('inf'):
+                    k = k & num & nums[idx]
+                else:
+                    k = num & nums[idx]
+                nums[i], nums[idx] = nums[idx], nums[i]
+                idx_map[i] = i
+                idx_map[num] = idx
 
-        return reduce(and_, arr) if arr else 0
+        return k if k != float('inf') else 0
