@@ -121,6 +121,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0583-delete-operation-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0712-minimum-ascii-delete-sum-for-two-strings/) | Medium |
+| [0830-positions-of-large-groups](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0830-positions-of-large-groups/) | Easy |
 | [0856-score-of-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0856-score-of-parentheses/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1092-shortest-common-supersequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1092-shortest-common-supersequence/) | Hard |
