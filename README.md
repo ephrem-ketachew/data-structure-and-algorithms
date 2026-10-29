@@ -135,6 +135,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
+| [1796-second-largest-digit-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1796-second-largest-digit-in-a-string/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2409-count-days-spent-together](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2409-count-days-spent-together/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3498-reverse-degree-of-a-string/) | Easy |
@@ -244,6 +245,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
+| [1796-second-largest-digit-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1796-second-largest-digit-in-a-string/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
