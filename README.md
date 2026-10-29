@@ -104,6 +104,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0696-count-binary-substrings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0696-count-binary-substrings/) | Easy |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -121,6 +122,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0516-longest-palindromic-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [0696-count-binary-substrings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0696-count-binary-substrings/) | Easy |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0712-minimum-ascii-delete-sum-for-two-strings/) | Medium |
 | [0830-positions-of-large-groups](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0830-positions-of-large-groups/) | Easy |
 | [0856-score-of-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0856-score-of-parentheses/) | Medium |
