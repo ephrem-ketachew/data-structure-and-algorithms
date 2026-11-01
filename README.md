@@ -64,6 +64,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
 | [0860-lemonade-change](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0860-lemonade-change/) | Easy |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
@@ -174,6 +175,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0062-unique-paths](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0062-unique-paths/) | Medium |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
 | [0415-add-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0415-add-strings/) | Easy |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0836-rectangle-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0836-rectangle-overlap/) | Easy |
 | [1281-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
