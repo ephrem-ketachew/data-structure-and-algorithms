@@ -70,6 +70,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
+| [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1460-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1460-make-two-arrays-equal-by-reversing-subarrays/) | Easy |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
@@ -132,6 +133,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1092-shortest-common-supersequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
@@ -248,6 +250,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0013-roman-to-integer](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0013-roman-to-integer/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
+| [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
 | [1460-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1460-make-two-arrays-equal-by-reversing-subarrays/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1796-second-largest-digit-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1796-second-largest-digit-in-a-string/) | Easy |
@@ -410,6 +413,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
