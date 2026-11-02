@@ -130,6 +130,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0712-minimum-ascii-delete-sum-for-two-strings/) | Medium |
 | [0830-positions-of-large-groups](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0830-positions-of-large-groups/) | Easy |
 | [0856-score-of-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0856-score-of-parentheses/) | Medium |
+| [0884-uncommon-words-from-two-sentences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0884-uncommon-words-from-two-sentences/) | Easy |
 | [1021-remove-outermost-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1092-shortest-common-supersequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1111-maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium |
@@ -253,6 +254,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0013-roman-to-integer](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0013-roman-to-integer/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
+| [0884-uncommon-words-from-two-sentences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0884-uncommon-words-from-two-sentences/) | Easy |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
 | [1460-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1460-make-two-arrays-equal-by-reversing-subarrays/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
@@ -416,6 +418,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0884-uncommon-words-from-two-sentences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0884-uncommon-words-from-two-sentences/) | Easy |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
 ## Quickselect
 | Problem Name | Difficulty |
