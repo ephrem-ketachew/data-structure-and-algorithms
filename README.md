@@ -139,6 +139,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
+| [1309-decrypt-string-from-alphabet-to-integer-mapping](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1309-decrypt-string-from-alphabet-to-integer-mapping/) | Easy |
 | [1370-increasing-decreasing-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1370-increasing-decreasing-string/) | Easy |
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
