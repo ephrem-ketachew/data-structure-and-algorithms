@@ -72,6 +72,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
+| [1267-count-servers-that-communicate](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1460-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1460-make-two-arrays-equal-by-reversing-subarrays/) | Easy |
@@ -179,6 +180,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0064-minimum-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0064-minimum-path-sum/) | Medium |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
+| [1267-count-servers-that-communicate](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Math
 | Problem Name | Difficulty |
@@ -383,6 +385,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0301-remove-invalid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0301-remove-invalid-parentheses/) | Hard |
+| [1267-count-servers-that-communicate](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1267-count-servers-that-communicate/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -413,6 +416,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1267-count-servers-that-communicate](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
@@ -436,10 +440,15 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0884-uncommon-words-from-two-sentences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0884-uncommon-words-from-two-sentences/) | Easy |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
+| [1267-count-servers-that-communicate](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [1370-increasing-decreasing-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1370-increasing-decreasing-string/) | Easy |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1267-count-servers-that-communicate](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1267-count-servers-that-communicate/) | Medium |
 <!---LeetCode Topics End-->
