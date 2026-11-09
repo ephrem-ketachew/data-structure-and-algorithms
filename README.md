@@ -152,6 +152,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
+| [1704-determine-if-string-halves-are-alike](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1704-determine-if-string-halves-are-alike/) | Easy |
 | [1796-second-largest-digit-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1796-second-largest-digit-in-a-string/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2409-count-days-spent-together](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2409-count-days-spent-together/) | Easy |
@@ -444,6 +445,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
 | [1267-count-servers-that-communicate](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [1370-increasing-decreasing-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1370-increasing-decreasing-string/) | Easy |
+| [1704-determine-if-string-halves-are-alike](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1704-determine-if-string-halves-are-alike/) | Easy |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
