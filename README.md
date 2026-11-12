@@ -82,6 +82,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [1882-process-tasks-using-servers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1882-process-tasks-using-servers/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
+| [2114-maximum-number-of-words-found-in-sentences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2114-maximum-number-of-words-found-in-sentences/) | Easy |
 | [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2747-count-zero-request-servers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2747-count-zero-request-servers/) | Medium |
 | [2778-sum-of-squares-of-special-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
@@ -156,6 +157,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1704-determine-if-string-halves-are-alike](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1704-determine-if-string-halves-are-alike/) | Easy |
 | [1796-second-largest-digit-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1796-second-largest-digit-in-a-string/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
+| [2114-maximum-number-of-words-found-in-sentences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2114-maximum-number-of-words-found-in-sentences/) | Easy |
 | [2409-count-days-spent-together](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2409-count-days-spent-together/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3863-minimum-operations-to-sort-a-string/) | Medium |
