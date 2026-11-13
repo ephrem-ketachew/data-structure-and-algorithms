@@ -78,6 +78,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1408-string-matching-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1460-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1460-make-two-arrays-equal-by-reversing-subarrays/) | Easy |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
+| [1619-mean-of-array-after-removing-some-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1619-mean-of-array-after-removing-some-elements/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [1882-process-tasks-using-servers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1882-process-tasks-using-servers/) | Medium |
@@ -227,6 +228,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
 | [1460-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1460-make-two-arrays-equal-by-reversing-subarrays/) | Easy |
+| [1619-mean-of-array-after-removing-some-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1619-mean-of-array-after-removing-some-elements/) | Easy |
 | [2089-find-target-indices-after-sorting-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2747-count-zero-request-servers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2747-count-zero-request-servers/) | Medium |
