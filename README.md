@@ -72,6 +72,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
+| [1049-last-stone-weight-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1160-find-words-that-can-be-formed-by-characters/) | Easy |
 | [1267-count-servers-that-communicate](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1267-count-servers-that-communicate/) | Medium |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
@@ -261,6 +262,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0712-minimum-ascii-delete-sum-for-two-strings/) | Medium |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
 | [1035-uncrossed-lines](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1035-uncrossed-lines/) | Medium |
+| [1049-last-stone-weight-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
@@ -467,10 +469,12 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [1049-last-stone-weight-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1049-last-stone-weight-ii/) | Medium |
 ## 0-1 Knapsack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [1049-last-stone-weight-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1049-last-stone-weight-ii/) | Medium |
 ## Brainteaser
 | Problem Name | Difficulty |
 | ------- | ------- |
