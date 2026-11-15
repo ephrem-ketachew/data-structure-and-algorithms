@@ -67,6 +67,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
+| [0494-target-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0494-target-sum/) | Medium |
 | [0835-image-overlap](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0835-image-overlap/) | Medium |
 | [0860-lemonade-change](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0860-lemonade-change/) | Easy |
 | [0931-minimum-falling-path-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0931-minimum-falling-path-sum/) | Medium |
@@ -256,6 +257,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0115-distinct-subsequences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0115-distinct-subsequences/) | Hard |
 | [0120-triangle](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0120-triangle/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0494-target-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0494-target-sum/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0678-valid-parenthesis-string/) | Medium |
@@ -379,6 +381,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0022-generate-parentheses/) | Medium |
 | [0301-remove-invalid-parentheses](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0301-remove-invalid-parentheses/) | Hard |
+| [0494-target-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0494-target-sum/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -469,11 +472,13 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0494-target-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0494-target-sum/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1049-last-stone-weight-ii/) | Medium |
 ## 0-1 Knapsack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0494-target-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0494-target-sum/) | Medium |
 | [1049-last-stone-weight-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1049-last-stone-weight-ii/) | Medium |
 ## Brainteaser
 | Problem Name | Difficulty |
