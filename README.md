@@ -63,6 +63,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0238-product-of-array-except-self](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0377-combination-sum-iv](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0377-combination-sum-iv/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
@@ -258,6 +259,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0072-edit-distance](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0072-edit-distance/) | Medium |
 | [0115-distinct-subsequences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0115-distinct-subsequences/) | Hard |
 | [0120-triangle](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0120-triangle/) | Medium |
+| [0377-combination-sum-iv](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0377-combination-sum-iv/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0494-target-sum/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0516-longest-palindromic-subsequence/) | Medium |
