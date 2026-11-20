@@ -274,6 +274,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1049-last-stone-weight-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1049-last-stone-weight-ii/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1155-number-of-dice-rolls-with-target-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1155-number-of-dice-rolls-with-target-sum/) | Medium |
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
