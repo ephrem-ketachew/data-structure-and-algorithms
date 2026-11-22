@@ -163,6 +163,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1796-second-largest-digit-in-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1796-second-largest-digit-in-a-string/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2114-maximum-number-of-words-found-in-sentences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2114-maximum-number-of-words-found-in-sentences/) | Easy |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2124-check-if-all-as-appears-before-all-bs/) | Easy |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
 | [2409-count-days-spent-together](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2409-count-days-spent-together/) | Easy |
 | [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2914-minimum-number-of-changes-to-make-binary-string-beautiful/) | Medium |
