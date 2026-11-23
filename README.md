@@ -84,6 +84,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [1619-mean-of-array-after-removing-some-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1619-mean-of-array-after-removing-some-elements/) | Easy |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
+| [1710-maximum-units-on-a-truck](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1710-maximum-units-on-a-truck/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [1882-process-tasks-using-servers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1882-process-tasks-using-servers/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
@@ -239,6 +240,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
 | [1460-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1460-make-two-arrays-equal-by-reversing-subarrays/) | Easy |
 | [1619-mean-of-array-after-removing-some-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1619-mean-of-array-after-removing-some-elements/) | Easy |
+| [1710-maximum-units-on-a-truck](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1710-maximum-units-on-a-truck/) | Easy |
 | [2089-find-target-indices-after-sorting-array](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2567-minimum-score-by-changing-two-elements/) | Medium |
@@ -322,6 +324,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0678-valid-parenthesis-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0860-lemonade-change](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0860-lemonade-change/) | Easy |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1541-minimum-insertions-to-balance-a-parentheses-string/) | Medium |
+| [1710-maximum-units-on-a-truck](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1710-maximum-units-on-a-truck/) | Easy |
 | [2333-minimum-sum-of-squared-difference](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2333-minimum-sum-of-squared-difference/) | Medium |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2567-minimum-score-by-changing-two-elements/) | Medium |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2897-apply-operations-on-array-to-maximize-sum-of-squares/) | Hard |
