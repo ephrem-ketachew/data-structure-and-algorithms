@@ -208,6 +208,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0062-unique-paths](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0062-unique-paths/) | Medium |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
 | [0292-nim-game](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0292-nim-game/) | Easy |
+| [0343-integer-break](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0343-integer-break/) | Medium |
 | [0415-add-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0415-add-strings/) | Easy |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
@@ -271,6 +272,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [0072-edit-distance](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0072-edit-distance/) | Medium |
 | [0115-distinct-subsequences](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0115-distinct-subsequences/) | Hard |
 | [0120-triangle](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0120-triangle/) | Medium |
+| [0343-integer-break](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0343-integer-break/) | Medium |
 | [0377-combination-sum-iv](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0377-combination-sum-iv/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0494-target-sum/) | Medium |
