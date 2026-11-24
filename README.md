@@ -97,6 +97,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2916-subarrays-distinct-element-sum-of-squares-ii/) | Hard |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy |
+| [3411-maximum-subarray-with-equal-products](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3644-maximum-k-to-sort-a-permutation/) | Medium |
@@ -112,6 +113,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [2747-count-zero-request-servers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2747-count-zero-request-servers/) | Medium |
+| [3411-maximum-subarray-with-equal-products](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3652-best-time-to-buy-and-sell-stock-using-strategy/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -214,6 +216,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1352-product-of-the-last-k-numbers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [2409-count-days-spent-together](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2409-count-days-spent-together/) | Easy |
+| [3411-maximum-subarray-with-equal-products](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
@@ -336,11 +339,13 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
 | [2778-sum-of-squares-of-special-elements](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
+| [3411-maximum-subarray-with-equal-products](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3886-sum-of-sortable-integers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0204-count-primes](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0204-count-primes/) | Medium |
+| [3411-maximum-subarray-with-equal-products](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 ## Primality Test
 | Problem Name | Difficulty |
 | ------- | ------- |
