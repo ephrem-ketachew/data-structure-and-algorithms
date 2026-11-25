@@ -97,6 +97,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2916-subarrays-distinct-element-sum-of-squares-ii/) | Hard |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3105-longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy |
+| [3131-find-the-integer-added-to-array-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3131-find-the-integer-added-to-array-i/) | Easy |
 | [3411-maximum-subarray-with-equal-products](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3551-minimum-swaps-to-sort-by-digit-sum/) | Medium |
