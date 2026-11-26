@@ -218,6 +218,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1352-product-of-the-last-k-numbers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [2409-count-days-spent-together](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2409-count-days-spent-together/) | Easy |
+| [3360-stone-removal-game](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3360-stone-removal-game/) | Easy |
 | [3411-maximum-subarray-with-equal-products](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
@@ -258,6 +259,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | ------- | ------- |
 | [0415-add-strings](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/0415-add-strings/) | Easy |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
+| [3360-stone-removal-game](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3360-stone-removal-game/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 | [4020-elevator-requests-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/4020-elevator-requests-i/) | Easy |
 ## Dynamic Programming
