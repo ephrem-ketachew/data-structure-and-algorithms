@@ -108,6 +108,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [3882-minimum-xor-path-in-a-grid](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3886-sum-of-sortable-integers/) | Hard |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3942-minimum-operations-to-sort-a-permutation/) | Medium |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
 | [4020-elevator-requests-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/4020-elevator-requests-i/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -292,6 +293,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [1387-sort-integers-by-the-power-value](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1387-sort-integers-by-the-power-value/) | Medium |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/1569-number-of-ways-to-reorder-array-to-get-same-bst/) | Hard |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -339,6 +341,7 @@ This path is often a solo grind, but it's more rewarding when shared. If you're 
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3723-maximize-sum-of-squares-of-digits/) | Medium |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3727-maximum-alternating-sum-of-squares/) | Medium |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3789-minimum-cost-to-acquire-required-items/) | Medium |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/ephrem-ketachew/data-structure-and-algorithms/tree/main/3946-maximum-number-of-items-from-sale-i/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
